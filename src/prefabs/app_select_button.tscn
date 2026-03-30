@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://dxyc3tx713eqr"]
+
+[ext_resource type="Script" uid="uid://1uic8j44xatn" path="res://src/prefabs/app_select_button.gd" id="1_oa820"]
+
+[node name="Button" type="Button" unique_id=201610898]
+offset_right = 8.0
+offset_bottom = 8.0
+script = ExtResource("1_oa820")
+
+[connection signal="pressed" from="." to="." method="_on_pressed"]

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="AppData" format=3 uid="uid://byg3nhvksxlge"]
+
+[ext_resource type="Texture2D" uid="uid://dydcc7bpooaqf" path="res://assets/textures/game_images/bubble_cover.png" id="1_p5kj2"]
+[ext_resource type="Script" uid="uid://naagfv3mx6to" path="res://src/resources/app_data.gd" id="1_rroit"]
+[ext_resource type="Texture2D" uid="uid://sukgivp8h7jx" path="res://assets/textures/screenshots/bubble_bandit/bubble_bandit_ss_0.png" id="2_idkd3"]
+[ext_resource type="Texture2D" uid="uid://7l8nau5rrtwd" path="res://assets/textures/screenshots/bubble_bandit/bubble_bandit_ss_1.png" id="3_6pckd"]
+
+[resource]
+script = ExtResource("1_rroit")
+app_path = "BubbleBandit.exe"
+app_title = "Bubble Bandit:
+Blow Bubbles and
+Pop them with Darts"
+app_texture = ExtResource("1_p5kj2")
+app_description = "Jerold is on a mission... collect all of the achievements, in style. Put things in bubbles and pop them. Take a stroll in the art gallery. Platform to collect trinkets in the world. Discover.... THE NUCLEUS."
+sc_1 = ExtResource("2_idkd3")
+sc_2 = ExtResource("3_6pckd")
+metadata/_custom_type_script = "uid://naagfv3mx6to"

@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="AppData" load_steps=5 format=3 uid="uid://bvrwmrq0wfcdw"]
+
+[ext_resource type="Script" uid="uid://naagfv3mx6to" path="res://src/resources/app_data.gd" id="1_16owe"]
+[ext_resource type="Texture2D" uid="uid://3halswe2cm4a" path="res://assets/textures/game_images/egg_cover.png" id="1_qf61c"]
+[ext_resource type="Texture2D" uid="uid://dg2so8npd2fmn" path="res://assets/textures/screenshots/egg-xpedition/egg_ss_2.png" id="2_hlecg"]
+[ext_resource type="Texture2D" uid="uid://mrjdvipxd5pe" path="res://assets/textures/screenshots/egg-xpedition/egg_ss_0.png" id="3_sxftn"]
+
+[resource]
+script = ExtResource("1_16owe")
+app_path = "egg-xpedition.exe"
+app_title = "EGG-XPEDITION"
+app_texture = ExtResource("1_qf61c")
+app_description = "Maintain your ship's systems as you fend off threats from your precious cargo in this epic journey home. Take command of each unique crew member to keep the shields, engine, navigation. and weapon systems running through a series of mini-games."
+sc_1 = ExtResource("2_hlecg")
+sc_2 = ExtResource("3_sxftn")
+metadata/_custom_type_script = "uid://naagfv3mx6to"

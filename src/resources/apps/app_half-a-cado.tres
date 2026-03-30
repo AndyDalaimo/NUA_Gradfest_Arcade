@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="AppData" load_steps=5 format=3 uid="uid://cdlyuglq5wsh3"]
+
+[ext_resource type="Script" uid="uid://naagfv3mx6to" path="res://src/resources/app_data.gd" id="1_rikuf"]
+[ext_resource type="Texture2D" uid="uid://bdyoq7kwqlrc4" path="res://assets/textures/game_images/halfacado_cover.png" id="1_vo4e4"]
+[ext_resource type="Texture2D" uid="uid://u268dt4ptoo7" path="res://assets/textures/screenshots/half-a-cado/half-a-cado_ss_0.png" id="2_cspnx"]
+[ext_resource type="Texture2D" uid="uid://x8rpipb4j58b" path="res://assets/textures/screenshots/half-a-cado/half-a-cado_ss_2.png" id="3_awgo5"]
+
+[resource]
+script = ExtResource("1_rikuf")
+app_path = "halfacado.exe"
+app_title = "half-a-cado"
+app_texture = ExtResource("1_vo4e4")
+app_description = "This cozy, math puzzler has you pushing a numbered cube through grid-based levels in 5 different worlds, each introducing a new mathematical operation!"
+sc_1 = ExtResource("2_cspnx")
+sc_2 = ExtResource("3_awgo5")
+metadata/_custom_type_script = "uid://naagfv3mx6to"
