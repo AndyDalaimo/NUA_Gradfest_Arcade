@@ -7,3 +7,4 @@ extends Resource
 @export_multiline var app_description: String
 @export var sc_1: Texture2D
 @export var sc_2: Texture2D
+@export var qr_texture: Texture2D

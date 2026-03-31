@@ -1,7 +1,8 @@
-[gd_resource type="Resource" script_class="AppData" load_steps=5 format=3 uid="uid://ct0sluv045vth"]
+[gd_resource type="Resource" script_class="AppData" format=3 uid="uid://ct0sluv045vth"]
 
 [ext_resource type="Texture2D" uid="uid://dp11w4a17cs5v" path="res://assets/textures/game_images/insolvent_cover.png" id="1_cfine"]
 [ext_resource type="Texture2D" uid="uid://bbfnm6cwcv8a4" path="res://assets/textures/screenshots/insolvent/insolvent_ss_0.png" id="2_0vnn5"]
+[ext_resource type="Texture2D" uid="uid://df2os8gkx7rvf" path="res://assets/textures/branding/qr.png" id="2_rogal"]
 [ext_resource type="Script" uid="uid://naagfv3mx6to" path="res://src/resources/app_data.gd" id="2_sxdyv"]
 [ext_resource type="Texture2D" uid="uid://demyjlvacsll3" path="res://assets/textures/screenshots/insolvent/insolvent_ss_2.png" id="3_rogal"]
 
@@ -13,4 +14,5 @@ app_texture = ExtResource("1_cfine")
 app_description = "Insolvent is a roguelike-deckbuilder, inspired by Rock-Paper-Scissors"
 sc_1 = ExtResource("2_0vnn5")
 sc_2 = ExtResource("3_rogal")
+qr_texture = ExtResource("2_rogal")
 metadata/_custom_type_script = "uid://naagfv3mx6to"

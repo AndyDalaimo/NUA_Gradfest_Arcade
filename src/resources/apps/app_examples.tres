@@ -1,8 +1,9 @@
-[gd_resource type="Resource" script_class="AppData" load_steps=5 format=3 uid="uid://s8mh5rxvyhgt"]
+[gd_resource type="Resource" script_class="AppData" format=3 uid="uid://s8mh5rxvyhgt"]
 
 [ext_resource type="Texture2D" uid="uid://beu73fmrd5uf5" path="res://assets/textures/game_images/human_cover.png" id="1_ew04r"]
 [ext_resource type="Script" uid="uid://naagfv3mx6to" path="res://src/resources/app_data.gd" id="1_vb1ra"]
 [ext_resource type="Texture2D" uid="uid://ctsyhfyea64fw" path="res://assets/textures/screenshots/examples_of_human_capital/examples_ss_0.png" id="2_fll1r"]
+[ext_resource type="Texture2D" uid="uid://df2os8gkx7rvf" path="res://assets/textures/branding/qr.png" id="2_q4fhc"]
 [ext_resource type="Texture2D" uid="uid://ddkqwwweuewam" path="res://assets/textures/screenshots/examples_of_human_capital/examples_ss_1.png" id="3_q4fhc"]
 
 [resource]
@@ -13,4 +14,5 @@ app_texture = ExtResource("1_ew04r")
 app_description = "a short narrative experience set in a corporate structure..."
 sc_1 = ExtResource("2_fll1r")
 sc_2 = ExtResource("3_q4fhc")
+qr_texture = ExtResource("2_q4fhc")
 metadata/_custom_type_script = "uid://naagfv3mx6to"

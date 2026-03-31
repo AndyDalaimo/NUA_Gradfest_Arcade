@@ -68,6 +68,11 @@ func set_app_description() -> void:
 	%AppDescriptionLabel.text = applications[curr_app_index].app_description
 	%SC1.texture = applications[curr_app_index].sc_1
 	%SC2.texture = applications[curr_app_index].sc_2
+	%QRRect.texture = applications[curr_app_index].qr_texture
+	if %QRRect.texture == null:
+		%ScanLabel.text = ""
+	else:
+		%ScanLabel.text = "Scan for this\nStudent's Work!"
 	
 	%NumberLabel.text = "%s/%s" % [curr_app_index+1, applications.size()]
 

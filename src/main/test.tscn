@@ -16,9 +16,9 @@
 [ext_resource type="Texture2D" uid="uid://bdyoq7kwqlrc4" path="res://assets/textures/game_images/halfacado_cover.png" id="10_0wpul"]
 [ext_resource type="Resource" uid="uid://byg3nhvksxlge" path="res://src/resources/apps/app_bubble_bandit.tres" id="10_0074o"]
 [ext_resource type="Script" uid="uid://ddyi03ds6xkmv" path="res://src/prefabs/wobble.gd" id="10_nnelw"]
-[ext_resource type="Texture2D" uid="uid://blj5k05bxdibh" path="res://assets/textures/branding/logo.png" id="11_246kw"]
 [ext_resource type="Texture2D" uid="uid://djucn41lk58g" path="res://assets/textures/screenshots/egg-xpedition/egg_ss_1.png" id="17_h5cg3"]
 [ext_resource type="Texture2D" uid="uid://c37pacaxhxh4" path="res://assets/textures/screenshots/oppo_type/oppo-type_ss_0.png" id="17_ouv37"]
+[ext_resource type="Texture2D" uid="uid://cuq5p5mr0oot8" path="res://assets/textures/branding/Norwich_University_Of_The_Arts_Logo_Stacked_RGB_B.png" id="19_h5cg3"]
 
 [node name="Test" type="Control" unique_id=462273320]
 layout_mode = 3
@@ -90,6 +90,7 @@ offset_right = 322.0
 offset_bottom = -167.0
 grow_vertical = 2
 follow_focus = true
+horizontal_scroll_mode = 0
 scroll_hint_mode = 1
 
 [node name="AppShortcutVBoxContainer" type="VBoxContainer" parent="ScrollContainer" unique_id=2092784366]
@@ -200,12 +201,15 @@ text = "RUN"
 flat = true
 
 [node name="QRRect" type="TextureRect" parent="." unique_id=1196423947]
+unique_name_in_owner = true
 layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
 anchor_right = 1.0
-offset_left = -189.0
-offset_bottom = 188.0
+offset_left = -247.0
+offset_top = 111.0
+offset_right = -58.0
+offset_bottom = 299.0
 grow_horizontal = 0
 pivot_offset = Vector2(94, 103)
 texture = ExtResource("9_6uulo")
@@ -215,6 +219,21 @@ script = ExtResource("10_nnelw")
 wobble_intensity = 1.0
 rotation_intensity = 0.5
 
+[node name="ScanLabel" type="Label" parent="." unique_id=1682055259]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -288.0
+offset_top = 18.0
+offset_right = -10.0
+offset_bottom = 91.0
+grow_horizontal = 0
+text = "Scan for this 
+Student's Work!"
+horizontal_alignment = 1
+
 [node name="LogoRect" type="TextureRect" parent="." unique_id=1178987777]
 layout_mode = 1
 offset_left = 26.0
@@ -222,7 +241,7 @@ offset_top = 26.0
 offset_right = 433.0
 offset_bottom = 181.0
 pivot_offset = Vector2(285, 108)
-texture = ExtResource("11_246kw")
+texture = ExtResource("19_h5cg3")
 expand_mode = 1
 stretch_mode = 5
 script = ExtResource("10_nnelw")
