@@ -16,6 +16,7 @@
 [ext_resource type="Texture2D" uid="uid://bdyoq7kwqlrc4" path="res://assets/textures/game_images/halfacado_cover.png" id="10_0wpul"]
 [ext_resource type="Resource" uid="uid://byg3nhvksxlge" path="res://src/resources/apps/app_bubble_bandit.tres" id="10_0074o"]
 [ext_resource type="Script" uid="uid://ddyi03ds6xkmv" path="res://src/prefabs/wobble.gd" id="10_nnelw"]
+[ext_resource type="Resource" uid="uid://c7e1b1f8bnnb1" path="res://src/resources/apps/app_IntroToUnreal.tres" id="11_ouv37"]
 [ext_resource type="Texture2D" uid="uid://djucn41lk58g" path="res://assets/textures/screenshots/egg-xpedition/egg_ss_1.png" id="17_h5cg3"]
 [ext_resource type="Texture2D" uid="uid://c37pacaxhxh4" path="res://assets/textures/screenshots/oppo_type/oppo-type_ss_0.png" id="17_ouv37"]
 [ext_resource type="Texture2D" uid="uid://cuq5p5mr0oot8" path="res://assets/textures/branding/Norwich_University_Of_The_Arts_Logo_Stacked_RGB_B.png" id="19_h5cg3"]
@@ -29,7 +30,7 @@ grow_horizontal = 2
 grow_vertical = 2
 theme = ExtResource("1_0wpul")
 script = ExtResource("1_x6y3s")
-applications = Array[ExtResource("2_ai2rw")]([ExtResource("3_pdh15"), ExtResource("4_mrdso"), ExtResource("6_gqxnc"), ExtResource("7_h5cg3"), ExtResource("8_ouv37"), ExtResource("9_7vqh8"), ExtResource("10_0074o")])
+applications = Array[ExtResource("2_ai2rw")]([ExtResource("3_pdh15"), ExtResource("4_mrdso"), ExtResource("6_gqxnc"), ExtResource("7_h5cg3"), ExtResource("8_ouv37"), ExtResource("9_7vqh8"), ExtResource("10_0074o"), ExtResource("11_ouv37")])
 
 [node name="BackStarsRect" type="TextureRect" parent="." unique_id=2000717083]
 layout_mode = 1
