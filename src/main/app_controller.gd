@@ -98,6 +98,8 @@ func set_app_data(app_index: int) -> void:
 
 func launch_application() -> void:
 	var output = []
-	OS.execute(current_project_path, [], output)
-	print(output)
+	# OS.execute(current_project_path, [], output)
+
+	var _pid = OS.create_process(current_project_path, [], true)
+	push_error(output)
 	pass
