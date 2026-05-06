@@ -8,6 +8,8 @@ extends Control
 
 var MAX_APPS: int
 var root_path: String = ""
+var active_pid: int = -1
+var temp_pid: int = -1
 var current_project_path: String
 var curr_app_index: int = 0:
 	set(value):
@@ -97,9 +99,23 @@ func set_app_data(app_index: int) -> void:
 		%DebugPathLabel.text = "Current Path: " + current_project_path
 
 func launch_application() -> void:
-	var output = []
+	# var output = []
 	# OS.execute(current_project_path, [], output)
+	if !OS.is_process_running(active_pid):
+		active_pid = OS.create_process(current_project_path, [], false)
+	else:
+		printerr("Process already running. Attempting new Process if none active.")
+		(OS.kill(active_pid))
+		if active_pid != -1:
+			await get_tree().create_timer(2.0).timeout
+			active_pid = OS.create_process(current_project_path, [], false)
+		
+	printerr("Active pid: ", active_pid)
 
-	var _pid = OS.create_process(current_project_path, [], true)
-	push_error(output)
+	
+	
+	%RunButton.disabled = true
+	await get_tree().create_timer(5.0).timeout
+	%RunButton.disabled = false
+	print("Can Run Now")
 	pass
