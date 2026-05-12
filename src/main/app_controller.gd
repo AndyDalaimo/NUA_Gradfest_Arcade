@@ -105,7 +105,7 @@ func launch_application() -> void:
 		active_pid = OS.create_process(current_project_path, [], false)
 	else:
 		printerr("Process already running. Attempting new Process if none active.")
-		(OS.kill(active_pid))
+		OS.kill(active_pid)
 		if active_pid != -1:
 			await get_tree().create_timer(2.0).timeout
 			active_pid = OS.create_process(current_project_path, [], false)
