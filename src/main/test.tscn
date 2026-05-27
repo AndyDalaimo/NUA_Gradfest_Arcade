@@ -5,8 +5,6 @@
 [ext_resource type="Script" uid="uid://naagfv3mx6to" path="res://src/resources/app_data.gd" id="2_ai2rw"]
 [ext_resource type="Resource" uid="uid://ct0sluv045vth" path="res://src/resources/apps/app_insolvent.tres" id="3_pdh15"]
 [ext_resource type="Resource" uid="uid://cdlyuglq5wsh3" path="res://src/resources/apps/app_half-a-cado.tres" id="4_mrdso"]
-[ext_resource type="Texture2D" uid="uid://dnlliqu7jiq0j" path="res://assets/textures/branding/bg_stars1.png" id="5_pdh15"]
-[ext_resource type="Texture2D" uid="uid://db87x70n8lqrk" path="res://assets/textures/branding/bg_stars2.png" id="5_qd3jq"]
 [ext_resource type="Resource" uid="uid://cyfj3cwimo61l" path="res://src/resources/apps/app_shrimp_world.tres" id="6_gqxnc"]
 [ext_resource type="Script" uid="uid://dva2tqa7xaskk" path="res://src/prefabs/mouse_parallax.gd" id="6_mrdso"]
 [ext_resource type="Resource" uid="uid://bg5r1qadb272j" path="res://src/resources/apps/app_oppo-type.tres" id="7_h5cg3"]
@@ -17,9 +15,11 @@
 [ext_resource type="Resource" uid="uid://byg3nhvksxlge" path="res://src/resources/apps/app_bubble_bandit.tres" id="10_0074o"]
 [ext_resource type="Script" uid="uid://ddyi03ds6xkmv" path="res://src/prefabs/wobble.gd" id="10_nnelw"]
 [ext_resource type="Resource" uid="uid://c7e1b1f8bnnb1" path="res://src/resources/apps/app_IntroToUnreal.tres" id="11_ouv37"]
+[ext_resource type="Texture2D" uid="uid://ck5u5r0iks7n1" path="res://assets/textures/branding/X_Pattern_02.png" id="12_ouv37"]
+[ext_resource type="Texture2D" uid="uid://bk3pa1pi410f5" path="res://assets/textures/branding/X_Pattern_03.png" id="14_ouv37"]
 [ext_resource type="Texture2D" uid="uid://djucn41lk58g" path="res://assets/textures/screenshots/egg-xpedition/egg_ss_1.png" id="17_h5cg3"]
 [ext_resource type="Texture2D" uid="uid://c37pacaxhxh4" path="res://assets/textures/screenshots/oppo_type/oppo-type_ss_0.png" id="17_ouv37"]
-[ext_resource type="Texture2D" uid="uid://cuq5p5mr0oot8" path="res://assets/textures/branding/Norwich_University_Of_The_Arts_Logo_Stacked_RGB_B.png" id="19_h5cg3"]
+[ext_resource type="Texture2D" uid="uid://bjnlauc2h074y" path="res://assets/textures/branding/Logo_Text_Yellow.png" id="20_ouv37"]
 
 [node name="Test" type="Control" unique_id=462273320]
 layout_mode = 3
@@ -33,6 +33,7 @@ script = ExtResource("1_x6y3s")
 applications = Array[ExtResource("2_ai2rw")]([ExtResource("3_pdh15"), ExtResource("4_mrdso"), ExtResource("6_gqxnc"), ExtResource("7_h5cg3"), ExtResource("8_ouv37"), ExtResource("9_7vqh8"), ExtResource("10_0074o"), ExtResource("11_ouv37")])
 
 [node name="BackStarsRect" type="TextureRect" parent="." unique_id=2000717083]
+self_modulate = Color(1, 1, 1, 0.24313726)
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -43,24 +44,25 @@ offset_right = 112.0
 offset_bottom = 88.1255
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("5_qd3jq")
+texture = ExtResource("12_ouv37")
 expand_mode = 5
 stretch_mode = 5
 script = ExtResource("6_mrdso")
 offset = 3.0
 
 [node name="StarsRect" type="TextureRect" parent="." unique_id=541794576]
+modulate = Color(1, 1, 1, 0.16862746)
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -112.0
+offset_left = -55.785
 offset_top = -88.0
-offset_right = 112.0
+offset_right = 168.21509
 offset_bottom = 88.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("5_pdh15")
+texture = ExtResource("14_ouv37")
 expand_mode = 5
 stretch_mode = 5
 script = ExtResource("6_mrdso")
@@ -86,9 +88,9 @@ top_level = true
 layout_mode = 1
 anchors_preset = 9
 anchor_bottom = 1.0
-offset_top = 204.0
-offset_right = 322.0
-offset_bottom = -167.0
+offset_top = 317.895
+offset_right = 291.0
+offset_bottom = -165.10498
 grow_vertical = 2
 follow_focus = true
 horizontal_scroll_mode = 0
@@ -247,7 +249,7 @@ offset_top = 26.0
 offset_right = 433.0
 offset_bottom = 181.0
 pivot_offset = Vector2(285, 108)
-texture = ExtResource("19_h5cg3")
+texture = ExtResource("20_ouv37")
 expand_mode = 1
 stretch_mode = 5
 script = ExtResource("10_nnelw")

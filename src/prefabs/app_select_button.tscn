@@ -5,6 +5,7 @@
 [node name="Button" type="Button" unique_id=201610898]
 offset_right = 8.0
 offset_bottom = 8.0
+scale = Vector2(0.5, 0.5)
 script = ExtResource("1_oa820")
 
 [connection signal="pressed" from="." to="." method="_on_pressed"]
