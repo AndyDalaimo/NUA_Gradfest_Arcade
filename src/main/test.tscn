@@ -3,22 +3,22 @@
 [ext_resource type="Theme" uid="uid://bfkjj7l2jrowv" path="res://assets/main_theme.tres" id="1_0wpul"]
 [ext_resource type="Script" uid="uid://c3uf0kc036s7q" path="res://src/main/app_controller.gd" id="1_x6y3s"]
 [ext_resource type="Script" uid="uid://naagfv3mx6to" path="res://src/resources/app_data.gd" id="2_ai2rw"]
-[ext_resource type="Resource" uid="uid://ct0sluv045vth" path="res://src/resources/apps/app_insolvent.tres" id="3_pdh15"]
-[ext_resource type="Resource" uid="uid://cdlyuglq5wsh3" path="res://src/resources/apps/app_half-a-cado.tres" id="4_mrdso"]
-[ext_resource type="Resource" uid="uid://cyfj3cwimo61l" path="res://src/resources/apps/app_shrimp_world.tres" id="6_gqxnc"]
+[ext_resource type="Resource" uid="uid://vyhajl4khae6" path="res://src/resources/apps/GradFest_2026/app_charlie_hannan.tres" id="4_m5k16"]
+[ext_resource type="Resource" uid="uid://c1qdqmfcdk56q" path="res://src/resources/apps/GradFest_2026/app_cyrus_gray.tres" id="5_e381v"]
+[ext_resource type="Resource" uid="uid://40a4htut6ytf" path="res://src/resources/apps/GradFest_2026/app_edd_grace.tres" id="6_0cne6"]
 [ext_resource type="Script" uid="uid://dva2tqa7xaskk" path="res://src/prefabs/mouse_parallax.gd" id="6_mrdso"]
-[ext_resource type="Resource" uid="uid://bg5r1qadb272j" path="res://src/resources/apps/app_oppo-type.tres" id="7_h5cg3"]
-[ext_resource type="Resource" uid="uid://bvrwmrq0wfcdw" path="res://src/resources/apps/app_egg-xpedition.tres" id="8_ouv37"]
+[ext_resource type="Resource" uid="uid://b4w0vj23hs3tj" path="res://src/resources/apps/GradFest_2026/app_george_white.tres" id="7_86r3e"]
+[ext_resource type="Resource" uid="uid://decpybm06hgde" path="res://src/resources/apps/GradFest_2026/app_jack_simnor.tres" id="8_gqxnc"]
 [ext_resource type="Texture2D" uid="uid://df2os8gkx7rvf" path="res://assets/textures/branding/qr.png" id="9_6uulo"]
-[ext_resource type="Resource" uid="uid://s8mh5rxvyhgt" path="res://src/resources/apps/app_examples.tres" id="9_7vqh8"]
+[ext_resource type="Resource" uid="uid://5o1e6x1lm5qd" path="res://src/resources/apps/GradFest_2026/app_jared_baker.tres" id="9_h5cg3"]
 [ext_resource type="Texture2D" uid="uid://bdyoq7kwqlrc4" path="res://assets/textures/game_images/halfacado_cover.png" id="10_0wpul"]
-[ext_resource type="Resource" uid="uid://byg3nhvksxlge" path="res://src/resources/apps/app_bubble_bandit.tres" id="10_0074o"]
 [ext_resource type="Script" uid="uid://ddyi03ds6xkmv" path="res://src/prefabs/wobble.gd" id="10_nnelw"]
-[ext_resource type="Resource" uid="uid://c7e1b1f8bnnb1" path="res://src/resources/apps/app_IntroToUnreal.tres" id="11_ouv37"]
+[ext_resource type="Resource" uid="uid://dpfrx3ayirokf" path="res://src/resources/apps/GradFest_2026/app_lycan_yiu.tres" id="10_ouv37"]
 [ext_resource type="Texture2D" uid="uid://ck5u5r0iks7n1" path="res://assets/textures/branding/X_Pattern_02.png" id="12_ouv37"]
 [ext_resource type="Texture2D" uid="uid://bk3pa1pi410f5" path="res://assets/textures/branding/X_Pattern_03.png" id="14_ouv37"]
 [ext_resource type="Texture2D" uid="uid://djucn41lk58g" path="res://assets/textures/screenshots/egg-xpedition/egg_ss_1.png" id="17_h5cg3"]
 [ext_resource type="Texture2D" uid="uid://c37pacaxhxh4" path="res://assets/textures/screenshots/oppo_type/oppo-type_ss_0.png" id="17_ouv37"]
+[ext_resource type="FontFile" uid="uid://b2yjmtcknuamm" path="res://assets/textures/fonts/Kenney Future Narrow.ttf" id="19_7vqh8"]
 [ext_resource type="Texture2D" uid="uid://bjnlauc2h074y" path="res://assets/textures/branding/Logo_Text_Yellow.png" id="20_ouv37"]
 
 [node name="Test" type="Control" unique_id=462273320]
@@ -30,7 +30,7 @@ grow_horizontal = 2
 grow_vertical = 2
 theme = ExtResource("1_0wpul")
 script = ExtResource("1_x6y3s")
-applications = Array[ExtResource("2_ai2rw")]([ExtResource("3_pdh15"), ExtResource("4_mrdso"), ExtResource("6_gqxnc"), ExtResource("7_h5cg3"), ExtResource("8_ouv37"), ExtResource("9_7vqh8"), ExtResource("10_0074o"), ExtResource("11_ouv37")])
+applications = Array[ExtResource("2_ai2rw")]([ExtResource("4_m5k16"), ExtResource("5_e381v"), ExtResource("6_0cne6"), ExtResource("7_86r3e"), ExtResource("8_gqxnc"), ExtResource("9_h5cg3"), ExtResource("10_ouv37")])
 
 [node name="BackStarsRect" type="TextureRect" parent="." unique_id=2000717083]
 self_modulate = Color(1, 1, 1, 0.24313726)
@@ -56,10 +56,10 @@ layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -55.785
-offset_top = -88.0
-offset_right = 168.21509
-offset_bottom = 88.0
+offset_left = -107.0
+offset_top = -105.0
+offset_right = 117.0
+offset_bottom = 71.0
 grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("14_ouv37")
@@ -89,7 +89,7 @@ layout_mode = 1
 anchors_preset = 9
 anchor_bottom = 1.0
 offset_top = 317.895
-offset_right = 291.0
+offset_right = 350.0
 offset_bottom = -165.10498
 grow_vertical = 2
 follow_focus = true
@@ -118,15 +118,16 @@ scale_intensity = 0.01
 layout_mode = 2
 theme_override_constants/separation = 24
 
-[node name="AppTitleLabel" type="Label" parent="AppInfoContainer/VBoxContainer" unique_id=482580748]
+[node name="AppTitleLabel" type="RichTextLabel" parent="AppInfoContainer/VBoxContainer" unique_id=1148811749]
 unique_name_in_owner = true
 custom_minimum_size = Vector2(0, 117.435)
 layout_mode = 2
-theme_override_font_sizes/font_size = 60
+theme_override_colors/default_color = Color(1, 0.4509804, 0.6, 1)
+theme_override_font_sizes/normal_font_size = 65
+bbcode_enabled = true
 text = "INSOLVENT"
 horizontal_alignment = 1
-vertical_alignment = 2
-clip_text = true
+vertical_alignment = 1
 
 [node name="HBoxContainer" type="HBoxContainer" parent="AppInfoContainer/VBoxContainer" unique_id=926391534]
 layout_mode = 2
@@ -186,6 +187,11 @@ stretch_mode = 5
 unique_name_in_owner = true
 custom_minimum_size = Vector2(0, 220)
 layout_mode = 2
+theme_override_fonts/normal_font = ExtResource("19_7vqh8")
+theme_override_fonts/bold_font = ExtResource("19_7vqh8")
+theme_override_fonts/bold_italics_font = ExtResource("19_7vqh8")
+theme_override_fonts/italics_font = ExtResource("19_7vqh8")
+theme_override_fonts/mono_font = ExtResource("19_7vqh8")
 theme_override_font_sizes/normal_font_size = 25
 text = "DESCRIPTION"
 

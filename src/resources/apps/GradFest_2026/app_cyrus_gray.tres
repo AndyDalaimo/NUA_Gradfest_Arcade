@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="AppData" format=3 uid="uid://c1qdqmfcdk56q"]
+
+[ext_resource type="Script" uid="uid://naagfv3mx6to" path="res://src/resources/app_data.gd" id="1_mftr5"]
+
+[resource]
+script = ExtResource("1_mftr5")
+app_path = "ASHLAND prototype 2 Cyrus Gray/ASHLAND prototype 2 Cyrus Gray/Windows/FabulousFuckery/Binaries/Win64/FabulousFuckery-Win64-Shipping.exe"
+app_title = "ASHLAND
+[font_size=32]Developed by: Cyrus Gray[/font_size]"
+metadata/_custom_type_script = "uid://naagfv3mx6to"

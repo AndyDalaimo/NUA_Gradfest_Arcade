@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="AppData" format=3 uid="uid://5o1e6x1lm5qd"]
+
+[ext_resource type="Script" uid="uid://naagfv3mx6to" path="res://src/resources/app_data.gd" id="1_qytk6"]
+[ext_resource type="Texture2D" uid="uid://dik6buwevauxt" path="res://assets/textures/game_images/JaredBaker/RATS - Promo Image-315x177.png" id="1_wm8l6"]
+[ext_resource type="Texture2D" uid="uid://cmv2y3bxbf8sd" path="res://assets/textures/game_images/JaredBaker/PG-RATS-QR-1.png" id="2_8a7ws"]
+
+[resource]
+script = ExtResource("1_qytk6")
+app_path = "RATS/Windows/GASP_PCII/Binaries/Win64/GASP_PCII-Win64-Shipping.exe"
+app_title = "RATS
+[font_size=32]Developed by: Jared Baker[/font_size]"
+app_texture = ExtResource("1_wm8l6")
+app_description = "RATS is a solo-developed tactical extraction shooter built in Unreal Engine 5.6 Blueprints. You're a courier, not a soldier, dropped into a contested zone where two enemy factions are already fighting each other. They're not hunting you. You're just in the way. 
+
+The AI runs on UE5's State Tree system with a five-tier alert ladder. Squads share threat information instantly, so one NPC spotting you means they all know. They seek cover based on threat geometry, search your last known position, and vary their aggression per faction. The goal was AI that punishes standing and fighting and rewards reading the space, committing to a route, and getting out. 
+
+Built entirely without C++ over six months, the current build is a playable vertical slice demonstrating the core loop: infiltrate, navigate, exfil.  
+
+Still in early development, with character art, additional levels, and further AI systems planned. The foundation is there. The rest is getting built. "
+qr_texture = ExtResource("2_8a7ws")
+metadata/_custom_type_script = "uid://naagfv3mx6to"

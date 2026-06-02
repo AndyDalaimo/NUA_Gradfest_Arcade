@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="AppData" format=3 uid="uid://b4w0vj23hs3tj"]
+
+[ext_resource type="Script" uid="uid://naagfv3mx6to" path="res://src/resources/app_data.gd" id="1_48cty"]
+[ext_resource type="Texture2D" uid="uid://dv0gobvor0nye" path="res://assets/textures/game_images/GeorgeWhite/ArsUpheavalBanner-315x147.png" id="1_x1inj"]
+
+[resource]
+script = ExtResource("1_48cty")
+app_path = "ArsUpheavalGames/Windows/ArsUpheaval/Binaries/Win64/ArsUpheaval-Win64-Shipping.exe"
+app_title = "Ars Upheaval
+[font_size=32]Developed by: George White[/font_size]"
+app_texture = ExtResource("1_x1inj")
+app_description = "Boxes of art have started flying out the ground on a lush island and its your job to collect them and inspire the masses.
+
+A first person sandbox about collecting, protecting and moving boxes of art.
+
+3rd Year FMP By George White (Games Art & Design: Indie Development)"
+metadata/_custom_type_script = "uid://naagfv3mx6to"
