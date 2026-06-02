@@ -2,6 +2,8 @@
 
 [ext_resource type="Script" uid="uid://naagfv3mx6to" path="res://src/resources/app_data.gd" id="1_48cty"]
 [ext_resource type="Texture2D" uid="uid://dv0gobvor0nye" path="res://assets/textures/game_images/GeorgeWhite/ArsUpheavalBanner-315x147.png" id="1_x1inj"]
+[ext_resource type="Texture2D" uid="uid://2wsbi7lemjnv" path="res://assets/textures/game_images/GeorgeWhite/ArsUpheaval_ss_0-315x177.png" id="2_nkktd"]
+[ext_resource type="Texture2D" uid="uid://c7g4d1s42owdv" path="res://assets/textures/game_images/GeorgeWhite/ArsUpheaval_ss_1-315x177.png" id="3_im5jx"]
 
 [resource]
 script = ExtResource("1_48cty")
@@ -14,4 +16,6 @@ app_description = "Boxes of art have started flying out the ground on a lush isl
 A first person sandbox about collecting, protecting and moving boxes of art.
 
 3rd Year FMP By George White (Games Art & Design: Indie Development)"
+sc_1 = ExtResource("2_nkktd")
+sc_2 = ExtResource("3_im5jx")
 metadata/_custom_type_script = "uid://naagfv3mx6to"
