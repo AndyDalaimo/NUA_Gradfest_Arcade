@@ -2,6 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://77d3n3a2puxf" path="res://assets/textures/game_images/CharlieHannan/Hotswap_Gradfest_1080px-315x177.png" id="1_hurah"]
 [ext_resource type="Script" uid="uid://naagfv3mx6to" path="res://src/resources/app_data.gd" id="2_bm3dg"]
+[ext_resource type="Texture2D" uid="uid://ddqvyrygnjn7s" path="res://assets/textures/game_images/CharlieHannan/Hotswap_ss_0.png" id="2_i2esf"]
 
 [resource]
 script = ExtResource("2_bm3dg")
@@ -17,5 +18,5 @@ This demo focuses on a single level set in a city setting midway through the gam
 
 If you would like to leave feedback after playing please scan the QR code and fill out the google form. Please don't mention any issues that are outlined on the form's description, as I'm already aware of these and am actively working on changing!
 "
-sc_1 = ExtResource("1_hurah")
+sc_1 = ExtResource("2_i2esf")
 metadata/_custom_type_script = "uid://naagfv3mx6to"

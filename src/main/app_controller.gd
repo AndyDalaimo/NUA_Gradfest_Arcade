@@ -7,6 +7,7 @@ extends Control
 @export var applications: Array[AppData]
 
 var MAX_APPS: int
+var WINDOW_SIZE: Vector2i
 var root_path: String = ""
 var active_pid: int = -1
 var temp_pid: int = -1
@@ -27,7 +28,8 @@ const APP_SELECT_BUTTON = preload("uid://dxyc3tx713eqr")
 func _ready():
 	MAX_APPS = applications.size()
 	init_app_data_path()
-	
+	WINDOW_SIZE = DisplayServer.window_get_size()
+	print("On Start - Window Size: ", WINDOW_SIZE)
 	set_file_path(applications[curr_app_index].app_path)
 	set_app_description()
 	
@@ -38,6 +40,8 @@ func _unhandled_input(event: InputEvent) -> void:
 	if event.is_action_pressed("EscapeArcade"):
 		get_tree().quit()
 	if event.is_action_pressed("RestartArcade"):
+		print_debug("Screen size: ", DisplayServer.screen_get_size())
+		DisplayServer.window_set_size(WINDOW_SIZE)
 		get_tree().reload_current_scene()
 
 ## Sets root path on initializing App
