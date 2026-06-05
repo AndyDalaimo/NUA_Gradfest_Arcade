@@ -11,6 +11,9 @@ app_path = "EddGraceGameBuild/Windows/Simulacum_Test/Binaries/Win64/Simulacum_Te
 app_title = "Simulacrum 
 [font_size=32]Developed by: Edd Thomas & Grace Thorne[/font_size]"
 app_texture = ExtResource("1_qapsa")
+app_description = "Ever felt confused and frustrated about your sexuality? Wish you could shake off that lingering shame and guilt you’re carrying; the skin-crawling notion that you're a freakazoid and a pervert?!
+ 
+Delve into this dream, welcome all that it offers with open arms and loving compassion in a quest to recover your repressed sexuality and reach a place of liberation!"
 sc_1 = ExtResource("2_rfn23")
 sc_2 = ExtResource("3_f3ql7")
 metadata/_custom_type_script = "uid://naagfv3mx6to"

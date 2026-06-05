@@ -26,6 +26,7 @@ const APP_SELECT_BUTTON = preload("uid://dxyc3tx713eqr")
 
 
 func _ready():
+	
 	MAX_APPS = applications.size()
 	init_app_data_path()
 	WINDOW_SIZE = DisplayServer.window_get_size()
@@ -115,7 +116,6 @@ func launch_application() -> void:
 			active_pid = OS.create_process(current_project_path, [], false)
 		
 	printerr("Active pid: ", active_pid)
-
 	
 	
 	%RunButton.disabled = true
