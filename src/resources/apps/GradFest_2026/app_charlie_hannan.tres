@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="AppData" format=3 uid="uid://vyhajl4khae6"]
+
+[ext_resource type="Texture2D" uid="uid://77d3n3a2puxf" path="res://assets/textures/game_images/CharlieHannan/Hotswap_Gradfest_1080px-315x177.png" id="1_hurah"]
+[ext_resource type="Script" uid="uid://naagfv3mx6to" path="res://src/resources/app_data.gd" id="2_bm3dg"]
+[ext_resource type="Texture2D" uid="uid://ddqvyrygnjn7s" path="res://assets/textures/game_images/CharlieHannan/Hotswap_ss_0.png" id="2_i2esf"]
+
+[resource]
+script = ExtResource("2_bm3dg")
+app_path = "HSWP_Wx64/Windows/HOTSWAP/Binaries/Win64/HOTSWAP-Win64-Shipping.exe"
+app_title = "HOTSWAP - City Demo
+[font_size=32]Developed by: Charlie Hannan[/font_size]"
+app_texture = ExtResource("1_hurah")
+app_description = "Punch, slide and shoot your way through enemies in the City Demo, a proof of concept build of HOTSWAP.
+
+Set in the near future, explore and fight your way through a dystopian, authoritarian UK controlled by the AI system POLaRIS and its robot police officers. Play as a reprogrammed police unit given sentience: swap out weapons mid-combat by physically attaching them to your arms, rise up and take the system down from within - you are the poison that will set the people free.
+
+This demo focuses on a single level set in a city setting midway through the game's story, featuring a tutorial and a short shootout with enemies. As this is a demo, content is very much subject to change and doesn't reflect the final state of the game. Many features are still work in progress (namely the placeholder enemies and level textures) and there are several bugs, though none are game-breaking.
+
+If you would like to leave feedback after playing please scan the QR code and fill out the google form. Please don't mention any issues that are outlined on the form's description, as I'm already aware of these and am actively working on changing!
+"
+sc_1 = ExtResource("2_i2esf")
+metadata/_custom_type_script = "uid://naagfv3mx6to"

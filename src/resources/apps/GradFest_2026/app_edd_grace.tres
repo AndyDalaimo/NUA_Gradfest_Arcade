@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="AppData" format=3 uid="uid://40a4htut6ytf"]
+
+[ext_resource type="Script" uid="uid://naagfv3mx6to" path="res://src/resources/app_data.gd" id="1_4ipks"]
+[ext_resource type="Texture2D" uid="uid://sq3f5jfghrjb" path="res://assets/textures/game_images/EddGrace/EddGrace_Banner-315x176.png" id="1_qapsa"]
+[ext_resource type="Texture2D" uid="uid://cpwy4u6og4qa" path="res://assets/textures/game_images/EddGrace/EddGrace_ss_0-382x212.png" id="2_rfn23"]
+[ext_resource type="Texture2D" uid="uid://bwfasaeafs2ha" path="res://assets/textures/game_images/EddGrace/EddGrace_ss_1-381x208.png" id="3_f3ql7"]
+
+[resource]
+script = ExtResource("1_4ipks")
+app_path = "EddGraceGameBuild/Windows/Simulacum_Test/Binaries/Win64/Simulacum_Test-Win64-Shipping.exe"
+app_title = "Simulacrum 
+[font_size=32]Developed by: Edd Thomas & Grace Thorne[/font_size]"
+app_texture = ExtResource("1_qapsa")
+app_description = "Ever felt confused and frustrated about your sexuality? Wish you could shake off that lingering shame and guilt you’re carrying; the skin-crawling notion that you're a freakazoid and a pervert?!
+ 
+Delve into this dream, welcome all that it offers with open arms and loving compassion in a quest to recover your repressed sexuality and reach a place of liberation!"
+sc_1 = ExtResource("2_rfn23")
+sc_2 = ExtResource("3_f3ql7")
+metadata/_custom_type_script = "uid://naagfv3mx6to"
