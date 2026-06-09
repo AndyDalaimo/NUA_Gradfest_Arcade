@@ -11,15 +11,16 @@
 [ext_resource type="Resource" uid="uid://decpybm06hgde" path="res://src/resources/apps/GradFest_2026/app_jack_simnor.tres" id="8_gqxnc"]
 [ext_resource type="Texture2D" uid="uid://df2os8gkx7rvf" path="res://assets/textures/branding/qr.png" id="9_6uulo"]
 [ext_resource type="Resource" uid="uid://5o1e6x1lm5qd" path="res://src/resources/apps/GradFest_2026/app_jared_baker.tres" id="9_h5cg3"]
-[ext_resource type="Texture2D" uid="uid://bdyoq7kwqlrc4" path="res://assets/textures/game_images/halfacado_cover.png" id="10_0wpul"]
 [ext_resource type="Script" uid="uid://ddyi03ds6xkmv" path="res://src/prefabs/wobble.gd" id="10_nnelw"]
 [ext_resource type="Resource" uid="uid://dpfrx3ayirokf" path="res://src/resources/apps/GradFest_2026/app_lycan_yiu.tres" id="10_ouv37"]
+[ext_resource type="Resource" uid="uid://mey1wwioxvlg" path="res://src/resources/apps/GradFest_2026/app_edentide.tres" id="11_7vqh8"]
 [ext_resource type="Texture2D" uid="uid://ck5u5r0iks7n1" path="res://assets/textures/branding/X_Pattern_02.png" id="12_ouv37"]
 [ext_resource type="Texture2D" uid="uid://bk3pa1pi410f5" path="res://assets/textures/branding/X_Pattern_03.png" id="14_ouv37"]
-[ext_resource type="Texture2D" uid="uid://djucn41lk58g" path="res://assets/textures/screenshots/egg-xpedition/egg_ss_1.png" id="17_h5cg3"]
-[ext_resource type="Texture2D" uid="uid://c37pacaxhxh4" path="res://assets/textures/screenshots/oppo_type/oppo-type_ss_0.png" id="17_ouv37"]
+[ext_resource type="Texture2D" uid="uid://b300k1ay6bjls" path="res://icon.svg" id="16_7vqh8"]
+[ext_resource type="Texture2D" uid="uid://2wsbi7lemjnv" path="res://assets/textures/game_images/GeorgeWhite/ArsUpheaval_ss_0-315x177.png" id="17_0074o"]
 [ext_resource type="FontFile" uid="uid://b2yjmtcknuamm" path="res://assets/textures/fonts/Kenney Future Narrow.ttf" id="19_7vqh8"]
 [ext_resource type="Texture2D" uid="uid://bjnlauc2h074y" path="res://assets/textures/branding/Logo_Text_Yellow.png" id="20_ouv37"]
+[ext_resource type="FontFile" uid="uid://e2hbj31dd7tk" path="res://assets/textures/fonts/Exchange-Stitch.ttf" id="22_0074o"]
 
 [node name="Test" type="Control" unique_id=462273320]
 layout_mode = 3
@@ -30,7 +31,7 @@ grow_horizontal = 2
 grow_vertical = 2
 theme = ExtResource("1_0wpul")
 script = ExtResource("1_x6y3s")
-applications = Array[ExtResource("2_ai2rw")]([ExtResource("4_m5k16"), ExtResource("5_e381v"), ExtResource("6_0cne6"), ExtResource("7_86r3e"), ExtResource("8_gqxnc"), ExtResource("9_h5cg3"), ExtResource("10_ouv37")])
+applications = Array[ExtResource("2_ai2rw")]([ExtResource("4_m5k16"), ExtResource("5_e381v"), ExtResource("6_0cne6"), ExtResource("7_86r3e"), ExtResource("8_gqxnc"), ExtResource("9_h5cg3"), ExtResource("10_ouv37"), ExtResource("11_7vqh8")])
 
 [node name="BackStarsRect" type="TextureRect" parent="." unique_id=2000717083]
 self_modulate = Color(1, 1, 1, 0.24313726)
@@ -159,7 +160,7 @@ alignment = 1
 [node name="AppSprite" type="TextureRect" parent="AppInfoContainer/VBoxContainer/HBoxContainer/VBoxContainer/AppSS_HBoxContainer" unique_id=866922596]
 unique_name_in_owner = true
 layout_mode = 2
-texture = ExtResource("10_0wpul")
+texture = ExtResource("16_7vqh8")
 stretch_mode = 5
 
 [node name="VBoxContainer" type="VBoxContainer" parent="AppInfoContainer/VBoxContainer/HBoxContainer/VBoxContainer/AppSS_HBoxContainer" unique_id=378880183]
@@ -170,7 +171,7 @@ unique_name_in_owner = true
 custom_minimum_size = Vector2(175.155, 0)
 layout_mode = 2
 size_flags_vertical = 3
-texture = ExtResource("17_ouv37")
+texture = ExtResource("17_0074o")
 expand_mode = 3
 stretch_mode = 5
 
@@ -179,7 +180,7 @@ unique_name_in_owner = true
 custom_minimum_size = Vector2(175.155, 0)
 layout_mode = 2
 size_flags_vertical = 3
-texture = ExtResource("17_h5cg3")
+texture = ExtResource("16_7vqh8")
 expand_mode = 3
 stretch_mode = 5
 
@@ -276,6 +277,7 @@ offset_right = -10.0
 offset_bottom = -8.0
 grow_horizontal = 0
 grow_vertical = 0
+theme_override_fonts/font = ExtResource("22_0074o")
 theme_override_font_sizes/font_size = 51
 text = "1/5"
 horizontal_alignment = 2

@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="AppData" format=3 uid="uid://mey1wwioxvlg"]
+
+[ext_resource type="Texture2D" uid="uid://cm8donurxqjl8" path="res://assets/textures/game_images/Edentide/Edentide_ss_315x167 (3).png" id="1_dlaml"]
+[ext_resource type="Script" uid="uid://naagfv3mx6to" path="res://src/resources/app_data.gd" id="1_o7nqp"]
+[ext_resource type="Texture2D" uid="uid://c86v6mu2kbsdo" path="res://assets/textures/game_images/Edentide/Edentide_ss_315x167 (2).png" id="2_ko18a"]
+[ext_resource type="Texture2D" uid="uid://nghelqt1vs6n" path="res://assets/textures/game_images/Edentide/Edentide_ss_315x167 (1).png" id="3_rlx6m"]
+[ext_resource type="Texture2D" uid="uid://4xf4wk314pun" path="res://assets/textures/game_images/Edentide/Edentide_ss_315x167 (4).png" id="4_mrykp"]
+
+[resource]
+script = ExtResource("1_o7nqp")
+app_path = "Gradfest EdenTide Demo/Windows/FMP/Binaries/Win64/FMP-Win64-Shipping.exe"
+app_title = "EdenTide
+[font_size=32]Developed by: Please Kelp Productions[/font_size]"
+app_texture = ExtResource("1_dlaml")
+app_description = "An old man returns to his hometown only to find the problems he left behind have remained... The creatures of his past are there to haunt him, and they won’t let him go. Not until he has reconciled with his well-buried memories”… Step into this third-person, action narrative Free or fight, the past is waiting for you. Make a choice. Face what remains."
+sc_1 = ExtResource("3_rlx6m")
+sc_2 = ExtResource("4_mrykp")
+qr_texture = ExtResource("2_ko18a")
+metadata/_custom_type_script = "uid://naagfv3mx6to"

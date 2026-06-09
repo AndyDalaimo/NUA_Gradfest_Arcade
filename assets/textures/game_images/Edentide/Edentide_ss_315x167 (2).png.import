@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c2nsvq2wu3g83"
-path="res://.godot/imported/shrimp_world_ss_2.png-399609f347d9fff31953558a41305435.ctex"
+uid="uid://c86v6mu2kbsdo"
+path="res://.godot/imported/Edentide_ss_315x167 (2).png-0dd9009817369d96dcea99ddac17174d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/textures/screenshots/shrimp_world/shrimp_world_ss_2.png"
-dest_files=["res://.godot/imported/shrimp_world_ss_2.png-399609f347d9fff31953558a41305435.ctex"]
+source_file="res://assets/textures/game_images/Edentide/Edentide_ss_315x167 (2).png"
+dest_files=["res://.godot/imported/Edentide_ss_315x167 (2).png-0dd9009817369d96dcea99ddac17174d.ctex"]
 
 [params]
 

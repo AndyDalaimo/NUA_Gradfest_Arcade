@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c37pacaxhxh4"
-path="res://.godot/imported/oppo-type_ss_0.png-9f2a071d1ca7073f3dd7b54860d82975.ctex"
+uid="uid://cm8donurxqjl8"
+path="res://.godot/imported/Edentide_ss_315x167 (3).png-986605b36b9a6eec3bccb947a436fe19.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/textures/screenshots/oppo_type/oppo-type_ss_0.png"
-dest_files=["res://.godot/imported/oppo-type_ss_0.png-9f2a071d1ca7073f3dd7b54860d82975.ctex"]
+source_file="res://assets/textures/game_images/Edentide/Edentide_ss_315x167 (3).png"
+dest_files=["res://.godot/imported/Edentide_ss_315x167 (3).png-986605b36b9a6eec3bccb947a436fe19.ctex"]
 
 [params]
 

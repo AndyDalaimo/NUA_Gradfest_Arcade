@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://7l8nau5rrtwd"
-path="res://.godot/imported/bubble_bandit_ss_1.png-fa92ef67cd8c9cfffa8fd0c6c65c185f.ctex"
+uid="uid://nghelqt1vs6n"
+path="res://.godot/imported/Edentide_ss_315x167 (1).png-8228ed1bbb47cda61d0599a95d5d6543.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/textures/screenshots/bubble_bandit/bubble_bandit_ss_1.png"
-dest_files=["res://.godot/imported/bubble_bandit_ss_1.png-fa92ef67cd8c9cfffa8fd0c6c65c185f.ctex"]
+source_file="res://assets/textures/game_images/Edentide/Edentide_ss_315x167 (1).png"
+dest_files=["res://.godot/imported/Edentide_ss_315x167 (1).png-8228ed1bbb47cda61d0599a95d5d6543.ctex"]
 
 [params]
 

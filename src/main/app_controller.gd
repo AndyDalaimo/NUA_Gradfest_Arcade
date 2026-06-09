@@ -24,9 +24,7 @@ var tween: Tween
 
 const APP_SELECT_BUTTON = preload("uid://dxyc3tx713eqr")
 
-
 func _ready():
-	
 	MAX_APPS = applications.size()
 	init_app_data_path()
 	WINDOW_SIZE = DisplayServer.window_get_size()
@@ -41,9 +39,7 @@ func _unhandled_input(event: InputEvent) -> void:
 	if event.is_action_pressed("EscapeArcade"):
 		get_tree().quit()
 	if event.is_action_pressed("RestartArcade"):
-		print_debug("Screen size: ", DisplayServer.screen_get_size())
-		DisplayServer.window_set_size(WINDOW_SIZE)
-		get_tree().reload_current_scene()
+		reload_scene()
 
 ## Sets root path on initializing App
 func init_app_data_path() -> void:
@@ -56,6 +52,14 @@ func init_app_data_path() -> void:
 func set_file_path(path: String) -> void:
 	init_app_data_path()
 	current_project_path = current_project_path + path
+	
+func reload_scene() -> void:
+		print_debug("Screen size: ", DisplayServer.screen_get_size())
+		DisplayServer.window_set_size(WINDOW_SIZE)
+		if OS.is_process_running(active_pid):
+			print_debug("App running, terminating process: ", active_pid)
+			OS.kill(active_pid)
+		get_tree().reload_current_scene()
 
 func next_app_data() -> void:
 	if applications != null:

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://rqlt3c50esws"
-path="res://.godot/imported/insolvent_ss_3.png-22086dbe26754b49b6c9d481d05589e7.ctex"
+uid="uid://4xf4wk314pun"
+path="res://.godot/imported/Edentide_ss_315x167 (4).png-105c86f50fe4ceb6974a71db87312be4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/textures/screenshots/insolvent/insolvent_ss_3.png"
-dest_files=["res://.godot/imported/insolvent_ss_3.png-22086dbe26754b49b6c9d481d05589e7.ctex"]
+source_file="res://assets/textures/game_images/Edentide/Edentide_ss_315x167 (4).png"
+dest_files=["res://.godot/imported/Edentide_ss_315x167 (4).png-105c86f50fe4ceb6974a71db87312be4.ctex"]
 
 [params]
 
