@@ -14,12 +14,18 @@
 [ext_resource type="Texture2D" uid="uid://bdyoq7kwqlrc4" path="res://assets/textures/game_images/halfacado_cover.png" id="10_0wpul"]
 [ext_resource type="Script" uid="uid://ddyi03ds6xkmv" path="res://src/prefabs/wobble.gd" id="10_nnelw"]
 [ext_resource type="Resource" uid="uid://dpfrx3ayirokf" path="res://src/resources/apps/GradFest_2026/app_lycan_yiu.tres" id="10_ouv37"]
+[ext_resource type="Resource" uid="uid://mey1wwioxvlg" path="res://src/resources/apps/GradFest_2026/app_edentide.tres" id="11_7vqh8"]
 [ext_resource type="Texture2D" uid="uid://ck5u5r0iks7n1" path="res://assets/textures/branding/X_Pattern_02.png" id="12_ouv37"]
 [ext_resource type="Texture2D" uid="uid://bk3pa1pi410f5" path="res://assets/textures/branding/X_Pattern_03.png" id="14_ouv37"]
-[ext_resource type="Texture2D" uid="uid://djucn41lk58g" path="res://assets/textures/screenshots/egg-xpedition/egg_ss_1.png" id="17_h5cg3"]
-[ext_resource type="Texture2D" uid="uid://c37pacaxhxh4" path="res://assets/textures/screenshots/oppo_type/oppo-type_ss_0.png" id="17_ouv37"]
 [ext_resource type="FontFile" uid="uid://b2yjmtcknuamm" path="res://assets/textures/fonts/Kenney Future Narrow.ttf" id="19_7vqh8"]
 [ext_resource type="Texture2D" uid="uid://bjnlauc2h074y" path="res://assets/textures/branding/Logo_Text_Yellow.png" id="20_ouv37"]
+[ext_resource type="FontFile" uid="uid://e2hbj31dd7tk" path="res://assets/textures/fonts/Exchange-Stitch.ttf" id="22_0074o"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ouv37"]
+load_path = "res://.godot/imported/oppo-type_ss_0.png-9f2a071d1ca7073f3dd7b54860d82975.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_7vqh8"]
+load_path = "res://.godot/imported/egg_ss_1.png-70a351e43ed355803989846f893b6537.ctex"
 
 [node name="Test" type="Control" unique_id=462273320]
 layout_mode = 3
@@ -30,7 +36,7 @@ grow_horizontal = 2
 grow_vertical = 2
 theme = ExtResource("1_0wpul")
 script = ExtResource("1_x6y3s")
-applications = Array[ExtResource("2_ai2rw")]([ExtResource("4_m5k16"), ExtResource("5_e381v"), ExtResource("6_0cne6"), ExtResource("7_86r3e"), ExtResource("8_gqxnc"), ExtResource("9_h5cg3"), ExtResource("10_ouv37")])
+applications = Array[ExtResource("2_ai2rw")]([ExtResource("4_m5k16"), ExtResource("5_e381v"), ExtResource("6_0cne6"), ExtResource("7_86r3e"), ExtResource("8_gqxnc"), ExtResource("9_h5cg3"), ExtResource("10_ouv37"), ExtResource("11_7vqh8")])
 
 [node name="BackStarsRect" type="TextureRect" parent="." unique_id=2000717083]
 self_modulate = Color(1, 1, 1, 0.24313726)
@@ -170,7 +176,7 @@ unique_name_in_owner = true
 custom_minimum_size = Vector2(175.155, 0)
 layout_mode = 2
 size_flags_vertical = 3
-texture = ExtResource("17_ouv37")
+texture = SubResource("CompressedTexture2D_ouv37")
 expand_mode = 3
 stretch_mode = 5
 
@@ -179,7 +185,7 @@ unique_name_in_owner = true
 custom_minimum_size = Vector2(175.155, 0)
 layout_mode = 2
 size_flags_vertical = 3
-texture = ExtResource("17_h5cg3")
+texture = SubResource("CompressedTexture2D_7vqh8")
 expand_mode = 3
 stretch_mode = 5
 
@@ -276,6 +282,7 @@ offset_right = -10.0
 offset_bottom = -8.0
 grow_horizontal = 0
 grow_vertical = 0
+theme_override_fonts/font = ExtResource("22_0074o")
 theme_override_font_sizes/font_size = 51
 text = "1/5"
 horizontal_alignment = 2

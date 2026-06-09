@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="AppData" format=3 uid="uid://mey1wwioxvlg"]
+
+[ext_resource type="Script" uid="uid://naagfv3mx6to" path="res://src/resources/app_data.gd" id="1_o7nqp"]
+
+[resource]
+script = ExtResource("1_o7nqp")
+app_path = "Gradfest EdenTide Demo/Windows/FMP/Binaries/Win64/FMP-Win64-Shipping.exe"
+app_title = "Edentide
+[font_size=32]Developed by: ------[/font_size]"
+metadata/_custom_type_script = "uid://naagfv3mx6to"
