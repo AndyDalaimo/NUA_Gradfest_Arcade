@@ -4,23 +4,27 @@
 [ext_resource type="Script" uid="uid://c3uf0kc036s7q" path="res://src/main/app_controller.gd" id="1_x6y3s"]
 [ext_resource type="Script" uid="uid://naagfv3mx6to" path="res://src/resources/app_data.gd" id="2_ai2rw"]
 [ext_resource type="Resource" uid="uid://vyhajl4khae6" path="res://src/resources/apps/GradFest_2026/app_charlie_hannan.tres" id="4_m5k16"]
-[ext_resource type="Resource" uid="uid://c1qdqmfcdk56q" path="res://src/resources/apps/GradFest_2026/app_cyrus_gray.tres" id="5_e381v"]
-[ext_resource type="Resource" uid="uid://40a4htut6ytf" path="res://src/resources/apps/GradFest_2026/app_edd_grace.tres" id="6_0cne6"]
+[ext_resource type="Resource" uid="uid://bqq6uhwcaprff" path="res://src/resources/apps/Brighton_2026/angler_annhiliator_app.tres" id="5_m5k16"]
+[ext_resource type="Resource" uid="uid://c4w2og0um0ly" path="res://src/resources/apps/Brighton_2026/bone_to_pick_app.tres" id="6_e381v"]
 [ext_resource type="Script" uid="uid://dva2tqa7xaskk" path="res://src/prefabs/mouse_parallax.gd" id="6_mrdso"]
-[ext_resource type="Resource" uid="uid://b4w0vj23hs3tj" path="res://src/resources/apps/GradFest_2026/app_george_white.tres" id="7_86r3e"]
-[ext_resource type="Resource" uid="uid://decpybm06hgde" path="res://src/resources/apps/GradFest_2026/app_jack_simnor.tres" id="8_gqxnc"]
+[ext_resource type="Resource" uid="uid://dg1r7e0sylyn7" path="res://src/resources/apps/Brighton_2026/bubble_bandit_app.tres" id="7_0cne6"]
+[ext_resource type="Resource" uid="uid://bthv00dmginsi" path="res://src/resources/apps/Brighton_2026/dice_or_die_app.tres" id="8_86r3e"]
 [ext_resource type="Texture2D" uid="uid://df2os8gkx7rvf" path="res://assets/textures/branding/qr.png" id="9_6uulo"]
-[ext_resource type="Resource" uid="uid://5o1e6x1lm5qd" path="res://src/resources/apps/GradFest_2026/app_jared_baker.tres" id="9_h5cg3"]
+[ext_resource type="Resource" uid="uid://cy7i1moexui84" path="res://src/resources/apps/Brighton_2026/grimternship_app.tres" id="9_gqxnc"]
+[ext_resource type="Resource" uid="uid://c0h6gn6j2npts" path="res://src/resources/apps/Brighton_2026/insolvent_app.tres" id="10_h5cg3"]
 [ext_resource type="Script" uid="uid://ddyi03ds6xkmv" path="res://src/prefabs/wobble.gd" id="10_nnelw"]
-[ext_resource type="Resource" uid="uid://dpfrx3ayirokf" path="res://src/resources/apps/GradFest_2026/app_lycan_yiu.tres" id="10_ouv37"]
-[ext_resource type="Resource" uid="uid://mey1wwioxvlg" path="res://src/resources/apps/GradFest_2026/app_edentide.tres" id="11_7vqh8"]
+[ext_resource type="Resource" uid="uid://bnodnn6ox4xoc" path="res://src/resources/apps/Brighton_2026/mizzi_and_alcorra_app.tres" id="11_7vqh8"]
+[ext_resource type="Resource" uid="uid://bt2oeonux1jac" path="res://src/resources/apps/Brighton_2026/nan_game_app.tres" id="12_0074o"]
 [ext_resource type="Texture2D" uid="uid://ck5u5r0iks7n1" path="res://assets/textures/branding/X_Pattern_02.png" id="12_ouv37"]
+[ext_resource type="Resource" uid="uid://cn30flfcns4n2" path="res://src/resources/apps/Brighton_2026/ridercityrush_app.tres" id="13_0074o"]
+[ext_resource type="Resource" uid="uid://b4ybsgj0x3sqr" path="res://src/resources/apps/Brighton_2026/tipplers_potions_app.tres" id="14_fdmu5"]
 [ext_resource type="Texture2D" uid="uid://bk3pa1pi410f5" path="res://assets/textures/branding/X_Pattern_03.png" id="14_ouv37"]
+[ext_resource type="Resource" uid="uid://dmugdgurbp23i" path="res://src/resources/apps/Brighton_2026/war_for_westminster.app.tres" id="15_y87hj"]
 [ext_resource type="Texture2D" uid="uid://b300k1ay6bjls" path="res://icon.svg" id="16_7vqh8"]
-[ext_resource type="Texture2D" uid="uid://2wsbi7lemjnv" path="res://assets/textures/game_images/GeorgeWhite/ArsUpheaval_ss_0-315x177.png" id="17_0074o"]
 [ext_resource type="FontFile" uid="uid://b2yjmtcknuamm" path="res://assets/textures/fonts/Kenney Future Narrow.ttf" id="19_7vqh8"]
 [ext_resource type="Texture2D" uid="uid://bjnlauc2h074y" path="res://assets/textures/branding/Logo_Text_Yellow.png" id="20_ouv37"]
 [ext_resource type="FontFile" uid="uid://e2hbj31dd7tk" path="res://assets/textures/fonts/Exchange-Stitch.ttf" id="22_0074o"]
+[ext_resource type="Script" uid="uid://d3i4568rn1eru" path="res://src/prefabs/app_tag_label.gd" id="25_wntdi"]
 
 [node name="Test" type="Control" unique_id=462273320]
 layout_mode = 3
@@ -31,7 +35,7 @@ grow_horizontal = 2
 grow_vertical = 2
 theme = ExtResource("1_0wpul")
 script = ExtResource("1_x6y3s")
-applications = Array[ExtResource("2_ai2rw")]([ExtResource("4_m5k16"), ExtResource("5_e381v"), ExtResource("6_0cne6"), ExtResource("7_86r3e"), ExtResource("8_gqxnc"), ExtResource("9_h5cg3"), ExtResource("10_ouv37"), ExtResource("11_7vqh8")])
+applications = Array[ExtResource("2_ai2rw")]([ExtResource("5_m5k16"), ExtResource("6_e381v"), ExtResource("7_0cne6"), ExtResource("8_86r3e"), ExtResource("9_gqxnc"), ExtResource("10_h5cg3"), ExtResource("11_7vqh8"), ExtResource("12_0074o"), ExtResource("13_0074o"), ExtResource("14_fdmu5"), ExtResource("15_y87hj"), ExtResource("4_m5k16")])
 
 [node name="BackStarsRect" type="TextureRect" parent="." unique_id=2000717083]
 self_modulate = Color(1, 1, 1, 0.24313726)
@@ -130,6 +134,17 @@ text = "INSOLVENT"
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="AppTagLabel" type="Label" parent="AppInfoContainer/VBoxContainer" unique_id=1526976641]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 2
+theme_override_fonts/font = ExtResource("22_0074o")
+theme_override_font_sizes/font_size = 25
+text = "GradFest 2025"
+horizontal_alignment = 1
+script = ExtResource("25_wntdi")
+
 [node name="HBoxContainer" type="HBoxContainer" parent="AppInfoContainer/VBoxContainer" unique_id=926391534]
 layout_mode = 2
 theme_override_constants/separation = 90
@@ -153,6 +168,7 @@ alignment = 1
 [node name="AppSS_HBoxContainer" type="HBoxContainer" parent="AppInfoContainer/VBoxContainer/HBoxContainer/VBoxContainer" unique_id=1754120816]
 unique_name_in_owner = true
 layout_mode = 2
+size_flags_horizontal = 4
 size_flags_vertical = 4
 theme_override_constants/separation = 30
 alignment = 1
@@ -160,10 +176,12 @@ alignment = 1
 [node name="AppSprite" type="TextureRect" parent="AppInfoContainer/VBoxContainer/HBoxContainer/VBoxContainer/AppSS_HBoxContainer" unique_id=866922596]
 unique_name_in_owner = true
 layout_mode = 2
+size_flags_horizontal = 4
 texture = ExtResource("16_7vqh8")
 stretch_mode = 5
 
 [node name="VBoxContainer" type="VBoxContainer" parent="AppInfoContainer/VBoxContainer/HBoxContainer/VBoxContainer/AppSS_HBoxContainer" unique_id=378880183]
+unique_name_in_owner = true
 layout_mode = 2
 
 [node name="SC1" type="TextureRect" parent="AppInfoContainer/VBoxContainer/HBoxContainer/VBoxContainer/AppSS_HBoxContainer/VBoxContainer" unique_id=909566956]
@@ -171,7 +189,6 @@ unique_name_in_owner = true
 custom_minimum_size = Vector2(175.155, 0)
 layout_mode = 2
 size_flags_vertical = 3
-texture = ExtResource("17_0074o")
 expand_mode = 3
 stretch_mode = 5
 
@@ -180,7 +197,6 @@ unique_name_in_owner = true
 custom_minimum_size = Vector2(175.155, 0)
 layout_mode = 2
 size_flags_vertical = 3
-texture = ExtResource("16_7vqh8")
 expand_mode = 3
 stretch_mode = 5
 

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="AppData" format=3 uid="uid://bnodnn6ox4xoc"]
+
+[ext_resource type="Texture2D" uid="uid://bttsqhq7bklbx" path="res://assets/textures/game_images/Mizzi&Alcorra/Mizzi&Alcorra_315x177.png" id="1_dedks"]
+[ext_resource type="Script" uid="uid://naagfv3mx6to" path="res://src/resources/app_data.gd" id="1_kxrqc"]
+
+[resource]
+script = ExtResource("1_kxrqc")
+app_path = "Mizzi_and_Alcorra/MagicalGirl_CatGun/Binaries/Win64/MagicalGirl_CatGun-Win64-Shipping.exe"
+app_title = "Mizzi and Alcorra
+[font_size=30]Developed by: Birgithe Runde, Harmony Latinwo[/font_size]
+[font_size=20]Genre: Arcade, Action Adventure[/font_size]"
+app_texture = ExtResource("1_dedks")
+app_description = "Fun game for all the family, here we have Mizzi and Alcorra battling against the world!"
+app_tag = "GradFest 2025"
+metadata/_custom_type_script = "uid://naagfv3mx6to"

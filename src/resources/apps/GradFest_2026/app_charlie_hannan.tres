@@ -19,4 +19,5 @@ This demo focuses on a single level set in a city setting midway through the gam
 If you would like to leave feedback after playing please scan the QR code and fill out the google form. Please don't mention any issues that are outlined on the form's description, as I'm already aware of these and am actively working on changing!
 "
 sc_1 = ExtResource("2_i2esf")
+app_tag = "GradFest 2026"
 metadata/_custom_type_script = "uid://naagfv3mx6to"

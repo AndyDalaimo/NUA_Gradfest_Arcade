@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="AppData" format=3 uid="uid://bqq6uhwcaprff"]
+
+[ext_resource type="Script" uid="uid://naagfv3mx6to" path="res://src/resources/app_data.gd" id="1_erten"]
+[ext_resource type="Texture2D" uid="uid://c4jc7j3n3rqlr" path="res://assets/textures/game_images/AnglerAnnihilator/AnglerAnnhililator_315x177.png" id="1_n4gcj"]
+
+[resource]
+script = ExtResource("1_erten")
+app_path = "AnglerAnnihilator/FMP.exe"
+app_title = "Angler Annihilator
+[font_size=32]Developed by: Oliver Davis[/font_size]
+[font_size=20]Genre: Boomer Shooter[/font_size]"
+app_texture = ExtResource("1_n4gcj")
+app_description = "In a world lost to mutated fish, can you be the saviour of humanity? Use the most classic fish eradication means known to man, the fishing rod, to vanquish the mutants from your corrupted world. Your floppiest ever rivals await battle."
+app_tag = "GradFest 2025"
+metadata/_custom_type_script = "uid://naagfv3mx6to"

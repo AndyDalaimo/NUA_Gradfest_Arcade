@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="AppData" format=3 uid="uid://bthv00dmginsi"]
+
+[ext_resource type="Script" uid="uid://naagfv3mx6to" path="res://src/resources/app_data.gd" id="1_ppu2h"]
+[ext_resource type="Texture2D" uid="uid://s0b6m3d4dcfg" path="res://assets/textures/game_images/DiceOrDie/DiceOrDie_315x177.png" id="1_yaecx"]
+
+[resource]
+script = ExtResource("1_ppu2h")
+app_path = "DiceOrDie/DiceOrDie.exe"
+app_title = "Dice or Die
+[font_size=26]Developed by: Szymon Garczynski, Josh Love, Jevon Brandow, Joel Tippett, Adam Wood[/font_size]
+[font_size=18]Genre: Roleplay[/font_size]"
+app_texture = ExtResource("1_yaecx")
+app_description = "You play a knight with a mission, gain dice, become more powerful or die trying."
+app_tag = "GradFest 2023"
+metadata/_custom_type_script = "uid://naagfv3mx6to"

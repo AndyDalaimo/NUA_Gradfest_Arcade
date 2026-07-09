@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="AppData" format=3 uid="uid://dg1r7e0sylyn7"]
+
+[ext_resource type="Texture2D" uid="uid://b1nohlur2hx1m" path="res://assets/textures/game_images/BubbleBandit/BubbleBandit_315x479.png" id="1_gxkl0"]
+[ext_resource type="Script" uid="uid://naagfv3mx6to" path="res://src/resources/app_data.gd" id="1_kpdnw"]
+
+[resource]
+script = ExtResource("1_kpdnw")
+app_path = "BubbleBandit/BubbleBandit.exe"
+app_title = "Bubble Bandit
+[font_size=28]Developed by: Debris Re:Entry (Charlie O'Shea & Andy Dalaimo)[/font_size]
+[font_size=20]Genre: FPS / Achievement Hunter[/font_size]"
+app_texture = ExtResource("1_gxkl0")
+app_description = "Jerold is on a mission... collect all of the achievements, in style. Put things in bubbles and pop them. Take a stroll in the art gallery. Platform to collect trinkets in the world. Discover.... THE NUCLEUS."
+app_tag = "GradFest 2025"
+metadata/_custom_type_script = "uid://naagfv3mx6to"

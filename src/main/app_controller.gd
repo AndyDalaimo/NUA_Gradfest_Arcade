@@ -79,6 +79,12 @@ func set_app_description() -> void:
 	%AppTitleLabel.text = applications[curr_app_index].app_title
 	%AppSprite.texture = applications[curr_app_index].app_texture
 	%AppDescriptionLabel.text = applications[curr_app_index].app_description
+	## Center Screenshots
+	if applications[curr_app_index].sc_1 == null and applications[curr_app_index].sc_2 == null:
+		%VBoxContainer.visible = false
+	else:
+		%VBoxContainer.visible = true
+
 	%SC1.texture = applications[curr_app_index].sc_1
 	%SC2.texture = applications[curr_app_index].sc_2
 	%QRRect.texture = applications[curr_app_index].qr_texture
@@ -86,8 +92,9 @@ func set_app_description() -> void:
 		%ScanLabel.text = ""
 	else:
 		%ScanLabel.text = "Scan for this\nStudent's Work!"
-	
 	%NumberLabel.text = "%s/%s" % [curr_app_index+1, applications.size()]
+	%AppTagLabel.text = applications[curr_app_index].app_tag
+	%AppTagLabel.anim_tag_label()
 
 func fill_app_select_container() -> void:
 	var app_index_it = 0

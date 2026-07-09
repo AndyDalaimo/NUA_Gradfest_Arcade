@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="AppData" format=3 uid="uid://dmugdgurbp23i"]
+
+[ext_resource type="Script" uid="uid://naagfv3mx6to" path="res://src/resources/app_data.gd" id="1_2v43b"]
+[ext_resource type="Texture2D" uid="uid://c48if6ygrkokc" path="res://assets/textures/game_images/WarForWestminster/WarForWestminster_315x191.png" id="1_ecgdk"]
+
+[resource]
+script = ExtResource("1_2v43b")
+app_path = "WarForWestminster/LiesOfPolls.exe"
+app_title = "War For Westminster
+[font_size=32]Developed by: Ben Phillips[/font_size]
+[font_size=20]Genre: Political Management / Simulation[/font_size]"
+app_texture = ExtResource("1_ecgdk")
+app_description = "Take over Westminster in this political simulation game"
+app_tag = "GradFest 2025"
+metadata/_custom_type_script = "uid://naagfv3mx6to"

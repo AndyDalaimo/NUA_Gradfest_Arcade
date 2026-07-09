@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="AppData" format=3 uid="uid://b4ybsgj0x3sqr"]
+
+[ext_resource type="Script" uid="uid://naagfv3mx6to" path="res://src/resources/app_data.gd" id="1_cf0t8"]
+[ext_resource type="Texture2D" uid="uid://dwxssipmc45hx" path="res://assets/textures/game_images/TipplersPotions/TipplersPotions_315_182.png" id="1_y0d2o"]
+
+[resource]
+script = ExtResource("1_cf0t8")
+app_path = "TipplersPotions/FantasyCocktails/Binaries/Win64/FantasyCocktails-Win64-Shipping.exe"
+app_title = "Tipplers Potions
+[font_size=32]Developed by: Elija Drulyte[/font_size]
+[font_size=20]Genre: Bar Management Simulation[/font_size]"
+app_texture = ExtResource("1_y0d2o")
+app_description = "Tend bar, listen to stories, and mix the perfect drinks!"
+app_tag = "GradFest 2025"
+metadata/_custom_type_script = "uid://naagfv3mx6to"

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="AppData" format=3 uid="uid://cy7i1moexui84"]
+
+[ext_resource type="Texture2D" uid="uid://yyw44vpl352j" path="res://assets/textures/game_images/Grimternship/GRIMTERNSHIP_315x.png" id="1_n2cdv"]
+[ext_resource type="Script" uid="uid://naagfv3mx6to" path="res://src/resources/app_data.gd" id="1_nqcss"]
+
+[resource]
+script = ExtResource("1_nqcss")
+app_path = "Grimternship/Grimternship.exe"
+app_title = "Grimternship
+[font_size=26]Developed by: Szymon Garczynski, Josh Love, Jevon Brandow[/font_size]
+[font_size=18]Genre: Action / Simulation[/font_size]"
+app_texture = ExtResource("1_n2cdv")
+app_description = "You play an intern for the grim reaper, you have to get the right souls to the right places."
+app_tag = "GradFest 2023"
+metadata/_custom_type_script = "uid://naagfv3mx6to"

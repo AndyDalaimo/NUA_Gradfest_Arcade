@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="AppData" format=3 uid="uid://bt2oeonux1jac"]
+
+[ext_resource type="Script" uid="uid://naagfv3mx6to" path="res://src/resources/app_data.gd" id="1_3cw36"]
+[ext_resource type="Texture2D" uid="uid://c2bk0nn8lnops" path="res://assets/textures/game_images/NanGame/NanGame_315x308.png" id="1_qm7hh"]
+
+[resource]
+script = ExtResource("1_3cw36")
+app_path = "NanGame/GlobalGamesJam2024IG.exe"
+app_title = "make your gran a cup of tea
+[font_size=32]Developed by: Ian Griffiths, Michelle Marham[/font_size]
+[font_size=20]Genre: Nan Tea Adventure[/font_size]"
+app_texture = ExtResource("1_qm7hh")
+app_description = "Make your nan a cup of tea!"
+app_tag = "Staff"
+metadata/_custom_type_script = "uid://naagfv3mx6to"

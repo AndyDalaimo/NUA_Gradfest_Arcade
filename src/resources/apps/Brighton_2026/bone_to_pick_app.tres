@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="AppData" format=3 uid="uid://c4w2og0um0ly"]
+
+[ext_resource type="Script" uid="uid://naagfv3mx6to" path="res://src/resources/app_data.gd" id="1_52uec"]
+[ext_resource type="Texture2D" uid="uid://bcm05bujfy564" path="res://assets/textures/game_images/BoneToPick/BoneToPick_315x177.png" id="1_he1kw"]
+
+[resource]
+script = ExtResource("1_52uec")
+app_path = "BoneToPick_Jevon_Brandow/BoneToPick/BoneToPick/Binaries/Win64/BoneToPick.exe"
+app_title = "Bone to Pick
+[font_size=32]Developed by: Jevon Brandow[/font_size]
+[font_size=20]Genre: Action/Adventure[/font_size]"
+app_texture = ExtResource("1_he1kw")
+app_description = "Move around the world crawling your way to freedom and finding you way through the world, if in doubt, go up."
+app_tag = "GradFest 2023"
+metadata/_custom_type_script = "uid://naagfv3mx6to"

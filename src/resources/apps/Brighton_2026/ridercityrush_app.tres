@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="AppData" format=3 uid="uid://cn30flfcns4n2"]
+
+[ext_resource type="Texture2D" uid="uid://nwmmpbovdlb1" path="res://assets/textures/game_images/RiderCityRUSH/RIDERCITY_315x173.png" id="1_dakpj"]
+[ext_resource type="Script" uid="uid://naagfv3mx6to" path="res://src/resources/app_data.gd" id="1_pkg73"]
+
+[resource]
+script = ExtResource("1_pkg73")
+app_path = "RiderCityRUSH/RIDERCITY/Binaries/Win64/RIDERCITY.exe"
+app_title = "RiderCityRush
+[font_size=32]Developed by: Ian Pettersen[/font_size]
+[font_size=20]Genre: Racing[/font_size]"
+app_texture = ExtResource("1_dakpj")
+app_description = "Race around the city as fast as you can scoring points!"
+app_tag = "GradFest 2024"
+metadata/_custom_type_script = "uid://naagfv3mx6to"
