@@ -25,6 +25,7 @@ var tween: Tween
 const APP_SELECT_BUTTON = preload("uid://dxyc3tx713eqr")
 
 func _ready():
+	applications.shuffle() ## Put Applications in a random order
 	MAX_APPS = applications.size()
 	init_app_data_path()
 	WINDOW_SIZE = DisplayServer.window_get_size()

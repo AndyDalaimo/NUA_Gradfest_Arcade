@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="AppData" format=3 uid="uid://bbl5i3hk3m8oa"]
+
+[ext_resource type="Script" uid="uid://naagfv3mx6to" path="res://src/resources/app_data.gd" id="1_fmy51"]
+[ext_resource type="Texture2D" uid="uid://bdyoq7kwqlrc4" path="res://assets/textures/game_images/HalfACado/halfacado_cover.png" id="1_i4n6k"]
+
+[resource]
+script = ExtResource("1_fmy51")
+app_path = "half-a-cado/halfacado.exe"
+app_title = "half-a-cado
+[font_size=28]Developed by: Debris Re:Entry (Charlie O'Shea & Andy Dalaimo)[/font_size]
+[font_size=20]Genre: Block Pusher / Math Puzzler[/font_size]"
+app_texture = ExtResource("1_i4n6k")
+app_description = "This cozy, math puzzler has you pushing a numbered cube through grid-based levels in 5 different worlds, each introducing a new mathematical operation!"
+app_tag = "Staff"
+metadata/_custom_type_script = "uid://naagfv3mx6to"

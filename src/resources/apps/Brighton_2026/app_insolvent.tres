@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="AppData" format=3 uid="uid://c0h6gn6j2npts"]
 
 [ext_resource type="Script" uid="uid://naagfv3mx6to" path="res://src/resources/app_data.gd" id="1_d8tfq"]
-[ext_resource type="Texture2D" uid="uid://b617pfurh1xma" path="res://assets/textures/game_images/Insolvent/INSOLVENT_315x172.png" id="1_o15u8"]
+[ext_resource type="Texture2D" uid="uid://bg22rdv7f6thd" path="res://assets/textures/game_images/Insolvent/insolvent_cover.png" id="1_o15u8"]
 
 [resource]
 script = ExtResource("1_d8tfq")

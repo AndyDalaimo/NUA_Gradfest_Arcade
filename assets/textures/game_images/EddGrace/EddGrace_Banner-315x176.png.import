@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bdyoq7kwqlrc4"
-path="res://.godot/imported/halfacado_cover.png-15e80c0d71bf9f53cd0b020e52292fc6.ctex"
+uid="uid://sq3f5jfghrjb"
+path="res://.godot/imported/EddGrace_Banner-315x176.png-e3786cb79360ada62b4beb7a954472d6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/textures/game_images/halfacado_cover.png"
-dest_files=["res://.godot/imported/halfacado_cover.png-15e80c0d71bf9f53cd0b020e52292fc6.ctex"]
+source_file="res://assets/textures/game_images/EddGrace/EddGrace_Banner-315x176.png"
+dest_files=["res://.godot/imported/EddGrace_Banner-315x176.png-e3786cb79360ada62b4beb7a954472d6.ctex"]
 
 [params]
 

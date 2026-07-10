@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="AppData" format=3 uid="uid://b7jj7rljyhh35"]
+
+[ext_resource type="Script" uid="uid://naagfv3mx6to" path="res://src/resources/app_data.gd" id="1_d7a5p"]
+[ext_resource type="Texture2D" uid="uid://cfmh5k0fh2fmx" path="res://assets/textures/game_images/BigCGame/Lymphtown_4-315x315.png" id="1_wta66"]
+[ext_resource type="Texture2D" uid="uid://chyls3obftjf5" path="res://assets/textures/game_images/BigCGame/bigc-1-315x177.png" id="2_uqf0h"]
+[ext_resource type="Texture2D" uid="uid://j4mh7r4oq5ns" path="res://assets/textures/game_images/BigCGame/bigc-3-315x177.png" id="3_7ixei"]
+
+[resource]
+script = ExtResource("1_d7a5p")
+app_path = "BigCGame/BigC_Main_1/Binaries/Win64/BigC_Main_1.exe"
+app_title = "Celly and the big C
+[font_size=32]Developed by: Norwich Uni Games Staff[/font_size]
+[font_size=20]Genre: 3D Platformer / Education[/font_size]"
+app_texture = ExtResource("1_wta66")
+app_description = "Cancer treatment can be difficult to talk about, especially with children. Celly and the Big C is a response to this challenge, using the power of play and games to help do the talking for us. Through the main character, Celly, and their companion, P.O.E, players are invited into the body to explore, learn and be curious about what’s going on. This project uses play, metaphor and visual language to explain what happens to the body during cancer treatment without overwhelming or alarming young players.
+
+Full Credits: Chris Middleton-Bolch, Dan Root, Hannah Reslan, Jacl Allen, Jake Montanarini, Kaliegh Branham, Matthew Wright, Michelle Marham, Olly Ryder, and Thom Haley. 
+Special thanks: Ian Griffiths"
+sc_1 = ExtResource("2_uqf0h")
+sc_2 = ExtResource("3_7ixei")
+app_tag = "Staff"
+metadata/_custom_type_script = "uid://naagfv3mx6to"

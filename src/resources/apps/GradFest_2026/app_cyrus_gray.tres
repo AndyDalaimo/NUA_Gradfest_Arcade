@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="AppData" format=3 uid="uid://bh717y0lqunme"]
+
+[ext_resource type="Texture2D" uid="uid://bsx1nawspk8i" path="res://assets/textures/game_images/CyrusGray/Ashland_Banner-315x177.png" id="1_0cmlg"]
+[ext_resource type="Script" uid="uid://naagfv3mx6to" path="res://src/resources/app_data.gd" id="1_mftr5"]
+[ext_resource type="Texture2D" uid="uid://340nly25tm5y" path="res://assets/textures/game_images/CyrusGray/Ashland_ss_0-315x192.png" id="2_etp1s"]
+
+[resource]
+script = ExtResource("1_mftr5")
+app_path = "ASHLAND prototype 2 Cyrus Gray/ASHLAND prototype 2 Cyrus Gray/Windows/FabulousFuckery/Binaries/Win64/FabulousFuckery-Win64-Shipping.exe"
+app_title = "ASHLAND
+[font_size=32]Developed by: Cyrus Gray[/font_size]
+[font_size=20]Genre: Adventure / Character Creator[/font_size]"
+app_texture = ExtResource("1_0cmlg")
+app_description = "Ashland: currently a rock smashing simulator with trees that grow but more to come soon"
+sc_1 = ExtResource("2_etp1s")
+app_tag = "GradFest 2026"
+metadata/_custom_type_script = "uid://naagfv3mx6to"
