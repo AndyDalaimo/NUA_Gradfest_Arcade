@@ -25,6 +25,7 @@ var tween: Tween
 const APP_SELECT_BUTTON = preload("uid://dxyc3tx713eqr")
 
 func _ready():
+	print("OS NAME: ", OS.get_model_name())
 	applications.shuffle() ## Put Applications in a random order
 	MAX_APPS = applications.size()
 	init_app_data_path()
@@ -32,7 +33,6 @@ func _ready():
 	print("On Start - Window Size: ", WINDOW_SIZE)
 	set_file_path(applications[curr_app_index].app_path)
 	set_app_description()
-	
 	fill_app_select_container()
 
 ## Quit Application on SHIFT-ESC
@@ -80,12 +80,11 @@ func set_app_description() -> void:
 	%AppTitleLabel.text = applications[curr_app_index].app_title
 	%AppSprite.texture = applications[curr_app_index].app_texture
 	%AppDescriptionLabel.text = applications[curr_app_index].app_description
-	## Center Screenshots
+	## Center Game banner if no screenshots 
 	if applications[curr_app_index].sc_1 == null and applications[curr_app_index].sc_2 == null:
 		%VBoxContainer.visible = false
 	else:
 		%VBoxContainer.visible = true
-
 	%SC1.texture = applications[curr_app_index].sc_1
 	%SC2.texture = applications[curr_app_index].sc_2
 	%QRRect.texture = applications[curr_app_index].qr_texture
@@ -102,7 +101,6 @@ func fill_app_select_container() -> void:
 	for app in applications:
 		var app_button: AppSelectButton = APP_SELECT_BUTTON.instantiate()
 		app_button.app_index = app_index_it
-		#app_button.text = app.app_title
 		app_button.icon = app.app_texture
 		app_button.app_selected.connect(set_app_data)
 		app_shortcut_v_box_container.add_child(app_button)
@@ -126,12 +124,10 @@ func launch_application() -> void:
 		if active_pid != -1:
 			await get_tree().create_timer(2.0).timeout
 			active_pid = OS.create_process(current_project_path, [], false)
-		
-	printerr("Active pid: ", active_pid)
 	
+	printerr("Active pid: ", active_pid)
 	
 	%RunButton.disabled = true
 	await get_tree().create_timer(5.0).timeout
 	%RunButton.disabled = false
 	print("Can Run Now")
-	pass
