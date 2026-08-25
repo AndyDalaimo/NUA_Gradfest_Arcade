@@ -3,27 +3,9 @@
 [ext_resource type="Theme" uid="uid://bfkjj7l2jrowv" path="res://assets/main_theme.tres" id="1_23icf"]
 [ext_resource type="Script" uid="uid://c3uf0kc036s7q" path="res://src/main/app_controller.gd" id="2_x5f78"]
 [ext_resource type="Script" uid="uid://naagfv3mx6to" path="res://src/resources/app_data.gd" id="3_xrg3v"]
-[ext_resource type="Resource" uid="uid://bqq6uhwcaprff" path="res://src/resources/apps/Brighton_2026/app_angler_annhiliator.tres" id="4_25in0"]
-[ext_resource type="Resource" uid="uid://c4w2og0um0ly" path="res://src/resources/apps/Brighton_2026/app_bone_to_pick.tres" id="5_e8v3j"]
-[ext_resource type="Resource" uid="uid://dg1r7e0sylyn7" path="res://src/resources/apps/Brighton_2026/app_bubble_bandit.tres" id="6_vqe0u"]
-[ext_resource type="Resource" uid="uid://bthv00dmginsi" path="res://src/resources/apps/Brighton_2026/app_dice_or_die.tres" id="7_dh7q2"]
-[ext_resource type="Resource" uid="uid://cy7i1moexui84" path="res://src/resources/apps/Brighton_2026/app_grimternship.tres" id="8_crt2f"]
-[ext_resource type="Resource" uid="uid://bbl5i3hk3m8oa" path="res://src/resources/apps/Brighton_2026/app_halfacado.tres" id="9_ft6te"]
-[ext_resource type="Resource" uid="uid://c0h6gn6j2npts" path="res://src/resources/apps/Brighton_2026/app_insolvent.tres" id="10_64mqw"]
-[ext_resource type="Resource" uid="uid://bnodnn6ox4xoc" path="res://src/resources/apps/Brighton_2026/app_mizzi_and_alcorra.tres" id="11_g8j85"]
-[ext_resource type="Resource" uid="uid://bt2oeonux1jac" path="res://src/resources/apps/Brighton_2026/app_nan_game.tres" id="12_3bh85"]
-[ext_resource type="Resource" uid="uid://cn30flfcns4n2" path="res://src/resources/apps/Brighton_2026/app_ridercityrush.tres" id="13_8tnif"]
-[ext_resource type="Resource" uid="uid://b4ybsgj0x3sqr" path="res://src/resources/apps/Brighton_2026/app_tipplers_potions.tres" id="14_i5e7h"]
-[ext_resource type="Resource" uid="uid://dmugdgurbp23i" path="res://src/resources/apps/Brighton_2026/app_war_for_westminster.tres" id="15_a6tsu"]
-[ext_resource type="Resource" uid="uid://vyhajl4khae6" path="res://src/resources/apps/GradFest_2026/app_charlie_hannan.tres" id="16_ubalr"]
-[ext_resource type="Resource" uid="uid://bh717y0lqunme" path="res://src/resources/apps/GradFest_2026/app_cyrus_gray.tres" id="17_ivoln"]
-[ext_resource type="Resource" uid="uid://bi8ssq7ej518b" path="res://src/resources/apps/GradFest_2026/app_edd_grace.tres" id="18_b5fm4"]
-[ext_resource type="Resource" uid="uid://caqa2kp2wfwl4" path="res://src/resources/apps/GradFest_2026/app_edentide.tres" id="19_g4trn"]
-[ext_resource type="Resource" uid="uid://1vn7vnurogwt" path="res://src/resources/apps/GradFest_2026/app_george_white.tres" id="20_v34tm"]
-[ext_resource type="Resource" uid="uid://c2uir6oorcgtb" path="res://src/resources/apps/GradFest_2026/app_jack_simnor.tres" id="21_hykh8"]
-[ext_resource type="Resource" uid="uid://084ttco4qcc" path="res://src/resources/apps/GradFest_2026/app_jared_baker.tres" id="22_1kaqv"]
-[ext_resource type="Resource" uid="uid://lmnp2jux2k45" path="res://src/resources/apps/GradFest_2026/app_lycan_yiu.tres" id="23_bnkug"]
-[ext_resource type="Resource" uid="uid://b7jj7rljyhh35" path="res://src/resources/apps/Brighton_2026/app_bigcgame.tres" id="24_yvql7"]
+[ext_resource type="Resource" uid="uid://617klsm4ydft" path="res://src/resources/apps/PGFest_2026/app_james_woodier.tres" id="4_nqfqj"]
+[ext_resource type="Resource" uid="uid://dx8cbduv3mtxx" path="res://src/resources/apps/PGFest_2026/app_johannes_kuhn.tres" id="5_hmxxs"]
+[ext_resource type="Resource" uid="uid://dn5o3m2l6ujkk" path="res://src/resources/apps/PGFest_2026/app_sonder_beth_hamilton.tres" id="6_2jinp"]
 [ext_resource type="Texture2D" uid="uid://ck5u5r0iks7n1" path="res://assets/textures/branding/X_Pattern_02.png" id="25_4i7pq"]
 [ext_resource type="Script" uid="uid://dva2tqa7xaskk" path="res://src/prefabs/mouse_parallax.gd" id="26_bwre2"]
 [ext_resource type="Texture2D" uid="uid://bk3pa1pi410f5" path="res://assets/textures/branding/X_Pattern_03.png" id="27_eg07o"]
@@ -48,7 +30,7 @@ grow_horizontal = 2
 grow_vertical = 2
 theme = ExtResource("1_23icf")
 script = ExtResource("2_x5f78")
-applications = Array[ExtResource("3_xrg3v")]([ExtResource("4_25in0"), ExtResource("5_e8v3j"), ExtResource("6_vqe0u"), ExtResource("7_dh7q2"), ExtResource("8_crt2f"), ExtResource("9_ft6te"), ExtResource("10_64mqw"), ExtResource("11_g8j85"), ExtResource("12_3bh85"), ExtResource("13_8tnif"), ExtResource("14_i5e7h"), ExtResource("15_a6tsu"), ExtResource("16_ubalr"), ExtResource("17_ivoln"), ExtResource("18_b5fm4"), ExtResource("19_g4trn"), ExtResource("20_v34tm"), ExtResource("21_hykh8"), ExtResource("22_1kaqv"), ExtResource("23_bnkug"), ExtResource("24_yvql7")])
+applications = Array[ExtResource("3_xrg3v")]([ExtResource("4_nqfqj"), ExtResource("5_hmxxs"), ExtResource("6_2jinp")])
 
 [node name="BackStarsRect" type="TextureRect" parent="." unique_id=2000717083]
 self_modulate = Color(1, 1, 1, 0.24313726)

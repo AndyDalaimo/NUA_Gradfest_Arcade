@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="AppData" format=3 uid="uid://dn5o3m2l6ujkk"]
+
+[ext_resource type="Script" uid="uid://naagfv3mx6to" path="res://src/resources/app_data.gd" id="1_afshn"]
+
+[resource]
+script = ExtResource("1_afshn")
+app_path = "Sonder-1.0-pc/Sonder.exe"
+app_title = "Sonder
+[font_size=32]Developed by: Beth Hamilton[/font_size]
+[font_size=20]Genre: Adventure / Character Creator[/font_size]"
+app_tag = "PG Fest 2026"
+metadata/_custom_type_script = "uid://naagfv3mx6to"
