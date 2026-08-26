@@ -1,12 +1,21 @@
 [gd_resource type="Resource" script_class="AppData" format=3 uid="uid://dx8cbduv3mtxx"]
 
+[ext_resource type="Texture2D" uid="uid://32nvbkpjk15s" path="res://assets/textures/game_images/JanK_TowerOfTrials/Tower of trials character.png" id="1_omttn"]
 [ext_resource type="Script" uid="uid://naagfv3mx6to" path="res://src/resources/app_data.gd" id="1_wnl4k"]
+[ext_resource type="Texture2D" uid="uid://w5mftak37c5y" path="res://assets/textures/game_images/JanK_TowerOfTrials/Tower of trials crafting.png" id="2_ubix2"]
+[ext_resource type="Texture2D" uid="uid://bctn7d3lr0eu" path="res://assets/textures/game_images/JanK_TowerOfTrials/Tower of trials dungeon.png" id="3_7rqef"]
 
 [resource]
 script = ExtResource("1_wnl4k")
 app_path = "Johannes_Kuhn_Game/TowerOfTrials_prototype1_5_2.exe"
 app_title = "Tower of Trials
-[font_size=32]Developed by: Johannes Kuhn[/font_size]
-[font_size=20]Genre: Adventure / Character Creator[/font_size]"
+[font_size=32]Developed by: Jan Kuhn[/font_size]
+[font_size=20]Genre: Turn-based hack and slash[/font_size]"
+app_texture = ExtResource("2_ubix2")
+app_description = "This project’s main inspirations were the endless hours I sank into the Pokemon Mystery Dungeon games as a child, and the endgame map-crafting systems of Path of Exile. I wanted to design a game where the main mechanic was the player being able to affect random generation in specific, less gambling-adjacent ways, which dovetailed nicely into the Mystery Dungeon genre.
+
+In this demo players can choose a class, construct a unique dungeon by dragging terrain and feature tiles into a template and then delve into the dungeon as a turn-based hack and slash. Running the dungeon rewards players with more tiles to build increasingly sophisticated or specialised dungeons that suit their play style. "
+sc_1 = ExtResource("1_omttn")
+sc_2 = ExtResource("3_7rqef")
 app_tag = "PG Fest 2026"
 metadata/_custom_type_script = "uid://naagfv3mx6to"

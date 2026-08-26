@@ -1,12 +1,19 @@
 [gd_resource type="Resource" script_class="AppData" format=3 uid="uid://617klsm4ydft"]
 
+[ext_resource type="Texture2D" uid="uid://c1grk42hu7tld" path="res://assets/textures/game_images/JamesW_SynaeSeizer/synaesizer_banner.png" id="1_havoa"]
 [ext_resource type="Script" uid="uid://naagfv3mx6to" path="res://src/resources/app_data.gd" id="1_vutme"]
+[ext_resource type="Texture2D" uid="uid://cgjlfp8wtackh" path="res://assets/textures/game_images/JamesW_SynaeSeizer/synaesizer_ss_0.png" id="2_vhh0u"]
+[ext_resource type="Texture2D" uid="uid://bleaopbtmvpfb" path="res://assets/textures/game_images/JamesW_SynaeSeizer/synaesizer_ss_1.png" id="3_kwbbd"]
 
 [resource]
 script = ExtResource("1_vutme")
 app_path = "SYNAE-SEIZER/Syneseizer.exe"
 app_title = "Synae-Seizer
 [font_size=32]Developed by: James Woodier[/font_size]
-[font_size=20]Genre: Adventure / Character Creator[/font_size]"
+[font_size=20]Genre: Puzzle/Platformer[/font_size]"
+app_texture = ExtResource("1_havoa")
+app_description = "Enter a world made of light which you have the ability to manipulate. Fill everywhere with colours of your choice to bring your own unique flavour to the experience. In this world, how things behave depends on their hue, including you. Use your unique abilities to manipulate objects and their colour in order to solve unique puzzles. Embody feelings and sensations that completely change the way you control."
+sc_1 = ExtResource("2_vhh0u")
+sc_2 = ExtResource("3_kwbbd")
 app_tag = "PG Fest 2026"
 metadata/_custom_type_script = "uid://naagfv3mx6to"

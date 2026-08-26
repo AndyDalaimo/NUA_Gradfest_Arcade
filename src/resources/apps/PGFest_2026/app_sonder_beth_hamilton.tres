@@ -1,12 +1,19 @@
 [gd_resource type="Resource" script_class="AppData" format=3 uid="uid://dn5o3m2l6ujkk"]
 
 [ext_resource type="Script" uid="uid://naagfv3mx6to" path="res://src/resources/app_data.gd" id="1_afshn"]
+[ext_resource type="Texture2D" uid="uid://w3y7q0pc4km2" path="res://assets/textures/game_images/BethH_Sonder/sonder_banner.png" id="1_bwjq3"]
+[ext_resource type="Texture2D" uid="uid://b0m35xr5fi8gv" path="res://assets/textures/game_images/BethH_Sonder/sonder_ss_0.png" id="2_do3n7"]
+[ext_resource type="Texture2D" uid="uid://vomfkm1uv7fi" path="res://assets/textures/game_images/BethH_Sonder/sonder_ss_1.png" id="3_iwebi"]
 
 [resource]
 script = ExtResource("1_afshn")
 app_path = "Sonder-1.0-pc/Sonder.exe"
 app_title = "Sonder
 [font_size=32]Developed by: Beth Hamilton[/font_size]
-[font_size=20]Genre: Adventure / Character Creator[/font_size]"
+[font_size=20]Genre: Visual Novel[/font_size]"
+app_texture = ExtResource("1_bwjq3")
+app_description = "You have been suddenly transported to a wonderful new world inhabited by a cast of wacky characters, but something feels off. Can you get to the bottom of this and help your new neighbours let go of the past?"
+sc_1 = ExtResource("2_do3n7")
+sc_2 = ExtResource("3_iwebi")
 app_tag = "PG Fest 2026"
 metadata/_custom_type_script = "uid://naagfv3mx6to"
