@@ -1,21 +1,21 @@
 [gd_resource type="Resource" script_class="AppData" format=3 uid="uid://dx8cbduv3mtxx"]
 
-[ext_resource type="Texture2D" uid="uid://32nvbkpjk15s" path="res://assets/textures/game_images/JanK_TowerOfTrials/Tower of trials character.png" id="1_omttn"]
+[ext_resource type="Texture2D" uid="uid://mxkjvdn05ktq" path="res://assets/textures/game_images/JanK_TowerOfTrials/toweroftrials_banner.png" id="1_ubix2"]
 [ext_resource type="Script" uid="uid://naagfv3mx6to" path="res://src/resources/app_data.gd" id="1_wnl4k"]
-[ext_resource type="Texture2D" uid="uid://w5mftak37c5y" path="res://assets/textures/game_images/JanK_TowerOfTrials/Tower of trials crafting.png" id="2_ubix2"]
-[ext_resource type="Texture2D" uid="uid://bctn7d3lr0eu" path="res://assets/textures/game_images/JanK_TowerOfTrials/Tower of trials dungeon.png" id="3_7rqef"]
+[ext_resource type="Texture2D" uid="uid://xnubo3ctu4ne" path="res://assets/textures/game_images/JanK_TowerOfTrials/toweroftrials_qr.png" id="2_7rqef"]
+[ext_resource type="Texture2D" uid="uid://cbikao5cp466u" path="res://assets/textures/game_images/JanK_TowerOfTrials/toweroftrials_ss_0.png" id="3_bwjyx"]
+[ext_resource type="Texture2D" uid="uid://bud3xjtu5lslf" path="res://assets/textures/game_images/JanK_TowerOfTrials/toweroftrials_ss_1.png" id="4_qxhcc"]
 
 [resource]
 script = ExtResource("1_wnl4k")
-app_path = "Johannes_Kuhn_Game/TowerOfTrials_prototype1_5_2.exe"
+app_path = "Johannes_Kuhn_Game/TowerOfTrials_prototype1_5_4.exe"
 app_title = "Tower of Trials
 [font_size=32]Developed by: Jan Kuhn[/font_size]
-[font_size=20]Genre: Turn-based hack and slash[/font_size]"
-app_texture = ExtResource("2_ubix2")
-app_description = "This project’s main inspirations were the endless hours I sank into the Pokemon Mystery Dungeon games as a child, and the endgame map-crafting systems of Path of Exile. I wanted to design a game where the main mechanic was the player being able to affect random generation in specific, less gambling-adjacent ways, which dovetailed nicely into the Mystery Dungeon genre.
-
-In this demo players can choose a class, construct a unique dungeon by dragging terrain and feature tiles into a template and then delve into the dungeon as a turn-based hack and slash. Running the dungeon rewards players with more tiles to build increasingly sophisticated or specialised dungeons that suit their play style. "
-sc_1 = ExtResource("1_omttn")
-sc_2 = ExtResource("3_7rqef")
+[font_size=20]Genre: Roguelite/RPG/Turn-Based[/font_size]"
+app_texture = ExtResource("1_ubix2")
+app_description = "Tower of Trials is a Mystery-Dungeon inspired game where the player battles through randomly-generated dungeons to gain loot and power. The twist, however, is that the player can actively affect how the dungeon spawns and what spawns in it every run, by using a crafting grid that increased in size and complexity as the game progresses."
+sc_1 = ExtResource("3_bwjyx")
+sc_2 = ExtResource("4_qxhcc")
+qr_texture = ExtResource("2_7rqef")
 app_tag = "PG Fest 2026"
 metadata/_custom_type_script = "uid://naagfv3mx6to"

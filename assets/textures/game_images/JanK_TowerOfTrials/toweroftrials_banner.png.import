@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://32nvbkpjk15s"
-path="res://.godot/imported/Tower of trials character.png-efd29baea410c0709a8c3022cef37df0.ctex"
+uid="uid://mxkjvdn05ktq"
+path="res://.godot/imported/toweroftrials_banner.png-329c1b93bc78e37ac27720ac1a624650.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/textures/game_images/JanK_TowerOfTrials/Tower of trials character.png"
-dest_files=["res://.godot/imported/Tower of trials character.png-efd29baea410c0709a8c3022cef37df0.ctex"]
+source_file="res://assets/textures/game_images/JanK_TowerOfTrials/toweroftrials_banner.png"
+dest_files=["res://.godot/imported/toweroftrials_banner.png-329c1b93bc78e37ac27720ac1a624650.ctex"]
 
 [params]
 

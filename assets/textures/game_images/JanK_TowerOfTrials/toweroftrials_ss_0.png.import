@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bctn7d3lr0eu"
-path="res://.godot/imported/Tower of trials dungeon.png-f7b03e0b7a166bb27386fe47e2d1148b.ctex"
+uid="uid://cbikao5cp466u"
+path="res://.godot/imported/toweroftrials_ss_0.png-28fadea02dabb629e9a8d7bcb1bcb879.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/textures/game_images/JanK_TowerOfTrials/Tower of trials dungeon.png"
-dest_files=["res://.godot/imported/Tower of trials dungeon.png-f7b03e0b7a166bb27386fe47e2d1148b.ctex"]
+source_file="res://assets/textures/game_images/JanK_TowerOfTrials/toweroftrials_ss_0.png"
+dest_files=["res://.godot/imported/toweroftrials_ss_0.png-28fadea02dabb629e9a8d7bcb1bcb879.ctex"]
 
 [params]
 
